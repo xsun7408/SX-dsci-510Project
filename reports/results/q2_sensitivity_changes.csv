@@ -1,0 +1,379 @@
+department,century,medium_category,count,share,records,sufficient_n,count_excluding_wide,share_excluding_wide,records_excluding_wide,sufficient_n_excluding_wide,change_percentage_points
+Asian Art,14,bronze,2,0.05555555555555555,36,True,1,0.030303030303030304,33,True,-2.525252525252525
+Asian Art,14,ceramic,3,0.08333333333333333,36,True,3,0.09090909090909091,33,True,0.7575757575757582
+Asian Art,14,clay_earth,5,0.1388888888888889,36,True,5,0.15151515151515152,33,True,1.2626262626262625
+Asian Art,14,drawing_painting_other,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,enamel,2,0.05555555555555555,36,True,2,0.06060606060606061,33,True,0.5050505050505055
+Asian Art,14,glass,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,ink_watercolor_print,15,0.4166666666666667,36,True,14,0.42424242424242425,33,True,0.7575757575757569
+Asian Art,14,ivory_bone_horn,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,lacquer,4,0.1111111111111111,36,True,4,0.12121212121212122,33,True,1.010101010101011
+Asian Art,14,oil_painting,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,other,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,other_metal,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,paper_parchment,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,stone,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,tempera_painting,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,textile,4,0.1111111111111111,36,True,3,0.09090909090909091,33,True,-2.0202020202020194
+Asian Art,14,unknown,0,0.0,36,True,0,0.0,33,True,0.0
+Asian Art,14,wood,1,0.027777777777777776,36,True,1,0.030303030303030304,33,True,0.25252525252525276
+Asian Art,15,bronze,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,ceramic,5,0.21739130434782608,23,True,5,0.21739130434782608,23,True,0.0
+Asian Art,15,clay_earth,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,drawing_painting_other,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,enamel,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,glass,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,ink_watercolor_print,7,0.30434782608695654,23,True,7,0.30434782608695654,23,True,0.0
+Asian Art,15,ivory_bone_horn,2,0.08695652173913043,23,True,2,0.08695652173913043,23,True,0.0
+Asian Art,15,lacquer,3,0.13043478260869565,23,True,3,0.13043478260869565,23,True,0.0
+Asian Art,15,oil_painting,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,other,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,other_metal,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,paper_parchment,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,stone,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,tempera_painting,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,textile,6,0.2608695652173913,23,True,6,0.2608695652173913,23,True,0.0
+Asian Art,15,unknown,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,15,wood,0,0.0,23,True,0,0.0,23,True,0.0
+Asian Art,16,bronze,1,0.017241379310344827,58,True,1,0.017241379310344827,58,True,0.0
+Asian Art,16,ceramic,6,0.10344827586206896,58,True,6,0.10344827586206896,58,True,0.0
+Asian Art,16,clay_earth,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,drawing_painting_other,1,0.017241379310344827,58,True,1,0.017241379310344827,58,True,0.0
+Asian Art,16,enamel,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,glass,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,ink_watercolor_print,12,0.20689655172413793,58,True,12,0.20689655172413793,58,True,0.0
+Asian Art,16,ivory_bone_horn,1,0.017241379310344827,58,True,1,0.017241379310344827,58,True,0.0
+Asian Art,16,lacquer,8,0.13793103448275862,58,True,8,0.13793103448275862,58,True,0.0
+Asian Art,16,oil_painting,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,other,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,other_metal,7,0.1206896551724138,58,True,7,0.1206896551724138,58,True,0.0
+Asian Art,16,paper_parchment,1,0.017241379310344827,58,True,1,0.017241379310344827,58,True,0.0
+Asian Art,16,stone,1,0.017241379310344827,58,True,1,0.017241379310344827,58,True,0.0
+Asian Art,16,tempera_painting,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,textile,16,0.27586206896551724,58,True,16,0.27586206896551724,58,True,0.0
+Asian Art,16,unknown,0,0.0,58,True,0,0.0,58,True,0.0
+Asian Art,16,wood,4,0.06896551724137931,58,True,4,0.06896551724137931,58,True,0.0
+Asian Art,17,bronze,1,0.004784688995215311,209,True,1,0.004784688995215311,209,True,0.0
+Asian Art,17,ceramic,52,0.24880382775119617,209,True,52,0.24880382775119617,209,True,0.0
+Asian Art,17,clay_earth,0,0.0,209,True,0,0.0,209,True,0.0
+Asian Art,17,drawing_painting_other,1,0.004784688995215311,209,True,1,0.004784688995215311,209,True,0.0
+Asian Art,17,enamel,1,0.004784688995215311,209,True,1,0.004784688995215311,209,True,0.0
+Asian Art,17,glass,0,0.0,209,True,0,0.0,209,True,0.0
+Asian Art,17,ink_watercolor_print,25,0.11961722488038277,209,True,25,0.11961722488038277,209,True,0.0
+Asian Art,17,ivory_bone_horn,10,0.04784688995215311,209,True,10,0.04784688995215311,209,True,0.0
+Asian Art,17,lacquer,10,0.04784688995215311,209,True,10,0.04784688995215311,209,True,0.0
+Asian Art,17,oil_painting,0,0.0,209,True,0,0.0,209,True,0.0
+Asian Art,17,other,0,0.0,209,True,0,0.0,209,True,0.0
+Asian Art,17,other_metal,2,0.009569377990430622,209,True,2,0.009569377990430622,209,True,0.0
+Asian Art,17,paper_parchment,0,0.0,209,True,0,0.0,209,True,0.0
+Asian Art,17,stone,13,0.06220095693779904,209,True,13,0.06220095693779904,209,True,0.0
+Asian Art,17,tempera_painting,0,0.0,209,True,0,0.0,209,True,0.0
+Asian Art,17,textile,87,0.41626794258373206,209,True,87,0.41626794258373206,209,True,0.0
+Asian Art,17,unknown,4,0.019138755980861243,209,True,4,0.019138755980861243,209,True,0.0
+Asian Art,17,wood,3,0.014354066985645933,209,True,3,0.014354066985645933,209,True,0.0
+Asian Art,18,bronze,3,0.010638297872340425,282,True,3,0.010638297872340425,282,True,0.0
+Asian Art,18,ceramic,49,0.17375886524822695,282,True,49,0.17375886524822695,282,True,0.0
+Asian Art,18,clay_earth,0,0.0,282,True,0,0.0,282,True,0.0
+Asian Art,18,drawing_painting_other,0,0.0,282,True,0,0.0,282,True,0.0
+Asian Art,18,enamel,10,0.03546099290780142,282,True,10,0.03546099290780142,282,True,0.0
+Asian Art,18,glass,3,0.010638297872340425,282,True,3,0.010638297872340425,282,True,0.0
+Asian Art,18,ink_watercolor_print,95,0.33687943262411346,282,True,95,0.33687943262411346,282,True,0.0
+Asian Art,18,ivory_bone_horn,13,0.04609929078014184,282,True,13,0.04609929078014184,282,True,0.0
+Asian Art,18,lacquer,7,0.024822695035460994,282,True,7,0.024822695035460994,282,True,0.0
+Asian Art,18,oil_painting,0,0.0,282,True,0,0.0,282,True,0.0
+Asian Art,18,other,1,0.0035460992907801418,282,True,1,0.0035460992907801418,282,True,0.0
+Asian Art,18,other_metal,8,0.028368794326241134,282,True,8,0.028368794326241134,282,True,0.0
+Asian Art,18,paper_parchment,12,0.0425531914893617,282,True,12,0.0425531914893617,282,True,0.0
+Asian Art,18,stone,13,0.04609929078014184,282,True,13,0.04609929078014184,282,True,0.0
+Asian Art,18,tempera_painting,0,0.0,282,True,0,0.0,282,True,0.0
+Asian Art,18,textile,52,0.18439716312056736,282,True,52,0.18439716312056736,282,True,0.0
+Asian Art,18,unknown,5,0.01773049645390071,282,True,5,0.01773049645390071,282,True,0.0
+Asian Art,18,wood,11,0.03900709219858156,282,True,11,0.03900709219858156,282,True,0.0
+Asian Art,19,bronze,1,0.007518796992481203,133,True,1,0.007518796992481203,133,True,0.0
+Asian Art,19,ceramic,14,0.10526315789473684,133,True,14,0.10526315789473684,133,True,0.0
+Asian Art,19,clay_earth,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,19,drawing_painting_other,3,0.022556390977443608,133,True,3,0.022556390977443608,133,True,0.0
+Asian Art,19,enamel,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,19,glass,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,19,ink_watercolor_print,85,0.6390977443609023,133,True,85,0.6390977443609023,133,True,0.0
+Asian Art,19,ivory_bone_horn,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,19,lacquer,5,0.03759398496240601,133,True,5,0.03759398496240601,133,True,0.0
+Asian Art,19,oil_painting,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,19,other,1,0.007518796992481203,133,True,1,0.007518796992481203,133,True,0.0
+Asian Art,19,other_metal,2,0.015037593984962405,133,True,2,0.015037593984962405,133,True,0.0
+Asian Art,19,paper_parchment,1,0.007518796992481203,133,True,1,0.007518796992481203,133,True,0.0
+Asian Art,19,stone,6,0.045112781954887216,133,True,6,0.045112781954887216,133,True,0.0
+Asian Art,19,tempera_painting,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,19,textile,14,0.10526315789473684,133,True,14,0.10526315789473684,133,True,0.0
+Asian Art,19,unknown,1,0.007518796992481203,133,True,1,0.007518796992481203,133,True,0.0
+Asian Art,19,wood,0,0.0,133,True,0,0.0,133,True,0.0
+Asian Art,20,bronze,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,ceramic,2,0.037037037037037035,54,True,2,0.037037037037037035,54,True,0.0
+Asian Art,20,clay_earth,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,drawing_painting_other,6,0.1111111111111111,54,True,6,0.1111111111111111,54,True,0.0
+Asian Art,20,enamel,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,glass,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,ink_watercolor_print,26,0.48148148148148145,54,True,26,0.48148148148148145,54,True,0.0
+Asian Art,20,ivory_bone_horn,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,lacquer,1,0.018518518518518517,54,True,1,0.018518518518518517,54,True,0.0
+Asian Art,20,oil_painting,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,other,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,other_metal,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,paper_parchment,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,stone,13,0.24074074074074073,54,True,13,0.24074074074074073,54,True,0.0
+Asian Art,20,tempera_painting,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,textile,3,0.05555555555555555,54,True,3,0.05555555555555555,54,True,0.0
+Asian Art,20,unknown,0,0.0,54,True,0,0.0,54,True,0.0
+Asian Art,20,wood,3,0.05555555555555555,54,True,3,0.05555555555555555,54,True,0.0
+European Paintings,14,bronze,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,ceramic,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,clay_earth,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,drawing_painting_other,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,enamel,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,glass,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,ink_watercolor_print,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,ivory_bone_horn,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,lacquer,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,oil_painting,1,0.04,25,True,1,0.04,25,True,0.0
+European Paintings,14,other,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,other_metal,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,paper_parchment,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,stone,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,tempera_painting,24,0.96,25,True,24,0.96,25,True,0.0
+European Paintings,14,textile,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,unknown,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,14,wood,0,0.0,25,True,0,0.0,25,True,0.0
+European Paintings,15,bronze,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,ceramic,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,clay_earth,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,drawing_painting_other,1,0.010869565217391304,92,True,1,0.010869565217391304,92,True,0.0
+European Paintings,15,enamel,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,glass,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,ink_watercolor_print,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,ivory_bone_horn,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,lacquer,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,oil_painting,42,0.45652173913043476,92,True,42,0.45652173913043476,92,True,0.0
+European Paintings,15,other,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,other_metal,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,paper_parchment,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,stone,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,tempera_painting,49,0.532608695652174,92,True,49,0.532608695652174,92,True,0.0
+European Paintings,15,textile,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,unknown,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,15,wood,0,0.0,92,True,0,0.0,92,True,0.0
+European Paintings,16,bronze,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,ceramic,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,clay_earth,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,drawing_painting_other,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,enamel,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,glass,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,ink_watercolor_print,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,ivory_bone_horn,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,lacquer,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,oil_painting,117,0.9140625,128,True,117,0.9140625,128,True,0.0
+European Paintings,16,other,1,0.0078125,128,True,1,0.0078125,128,True,0.0
+European Paintings,16,other_metal,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,paper_parchment,4,0.03125,128,True,4,0.03125,128,True,0.0
+European Paintings,16,stone,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,tempera_painting,6,0.046875,128,True,6,0.046875,128,True,0.0
+European Paintings,16,textile,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,unknown,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,16,wood,0,0.0,128,True,0,0.0,128,True,0.0
+European Paintings,17,bronze,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,ceramic,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,clay_earth,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,drawing_painting_other,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,enamel,1,0.005847953216374269,171,True,1,0.005847953216374269,171,True,0.0
+European Paintings,17,glass,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,ink_watercolor_print,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,ivory_bone_horn,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,lacquer,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,oil_painting,164,0.9590643274853801,171,True,164,0.9590643274853801,171,True,0.0
+European Paintings,17,other,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,other_metal,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,paper_parchment,5,0.029239766081871343,171,True,5,0.029239766081871343,171,True,0.0
+European Paintings,17,stone,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,tempera_painting,1,0.005847953216374269,171,True,1,0.005847953216374269,171,True,0.0
+European Paintings,17,textile,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,unknown,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,17,wood,0,0.0,171,True,0,0.0,171,True,0.0
+European Paintings,18,bronze,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,ceramic,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,clay_earth,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,drawing_painting_other,14,0.0660377358490566,212,True,14,0.0660377358490566,212,True,0.0
+European Paintings,18,enamel,9,0.04245283018867924,212,True,9,0.04245283018867924,212,True,0.0
+European Paintings,18,glass,2,0.009433962264150943,212,True,2,0.009433962264150943,212,True,0.0
+European Paintings,18,ink_watercolor_print,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,ivory_bone_horn,45,0.21226415094339623,212,True,45,0.21226415094339623,212,True,0.0
+European Paintings,18,lacquer,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,oil_painting,135,0.6367924528301887,212,True,135,0.6367924528301887,212,True,0.0
+European Paintings,18,other,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,other_metal,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,paper_parchment,6,0.02830188679245283,212,True,6,0.02830188679245283,212,True,0.0
+European Paintings,18,stone,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,tempera_painting,1,0.0047169811320754715,212,True,1,0.0047169811320754715,212,True,0.0
+European Paintings,18,textile,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,unknown,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,18,wood,0,0.0,212,True,0,0.0,212,True,0.0
+European Paintings,19,bronze,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,ceramic,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,clay_earth,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,drawing_painting_other,20,0.05714285714285714,350,True,20,0.05714285714285714,350,True,0.0
+European Paintings,19,enamel,3,0.008571428571428572,350,True,3,0.008571428571428572,350,True,0.0
+European Paintings,19,glass,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,ink_watercolor_print,2,0.005714285714285714,350,True,2,0.005714285714285714,350,True,0.0
+European Paintings,19,ivory_bone_horn,19,0.054285714285714284,350,True,19,0.054285714285714284,350,True,0.0
+European Paintings,19,lacquer,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,oil_painting,303,0.8657142857142858,350,True,303,0.8657142857142858,350,True,0.0
+European Paintings,19,other,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,other_metal,1,0.002857142857142857,350,True,1,0.002857142857142857,350,True,0.0
+European Paintings,19,paper_parchment,2,0.005714285714285714,350,True,2,0.005714285714285714,350,True,0.0
+European Paintings,19,stone,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,tempera_painting,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,textile,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,unknown,0,0.0,350,True,0,0.0,350,True,0.0
+European Paintings,19,wood,0,0.0,350,True,0,0.0,350,True,0.0
+Greek and Roman Art,-8,bronze,3,0.15,20,True,3,0.15,20,True,0.0
+Greek and Roman Art,-8,ceramic,16,0.8,20,True,16,0.8,20,True,0.0
+Greek and Roman Art,-8,clay_earth,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,drawing_painting_other,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,enamel,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,glass,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,ink_watercolor_print,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,ivory_bone_horn,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,lacquer,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,oil_painting,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,other,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,other_metal,1,0.05,20,True,1,0.05,20,True,0.0
+Greek and Roman Art,-8,paper_parchment,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,stone,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,tempera_painting,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,textile,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,unknown,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-8,wood,0,0.0,20,True,0,0.0,20,True,0.0
+Greek and Roman Art,-7,bronze,4,0.02857142857142857,140,True,4,0.03418803418803419,117,True,0.5616605616605621
+Greek and Roman Art,-7,ceramic,112,0.8,140,True,102,0.8717948717948718,117,True,7.179487179487176
+Greek and Roman Art,-7,clay_earth,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,drawing_painting_other,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,enamel,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,glass,5,0.03571428571428571,140,True,0,0.0,117,True,-3.571428571428571
+Greek and Roman Art,-7,ink_watercolor_print,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,ivory_bone_horn,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,lacquer,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,oil_painting,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,other,3,0.02142857142857143,140,True,3,0.02564102564102564,117,True,0.42124542124542114
+Greek and Roman Art,-7,other_metal,6,0.04285714285714286,140,True,6,0.05128205128205128,117,True,0.8424908424908423
+Greek and Roman Art,-7,paper_parchment,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,stone,10,0.07142857142857142,140,True,2,0.017094017094017096,117,True,-5.433455433455433
+Greek and Roman Art,-7,tempera_painting,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,textile,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,unknown,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-7,wood,0,0.0,140,True,0,0.0,117,True,0.0
+Greek and Roman Art,-6,bronze,7,0.026217228464419477,267,True,7,0.026217228464419477,267,True,0.0
+Greek and Roman Art,-6,ceramic,247,0.9250936329588015,267,True,247,0.9250936329588015,267,True,0.0
+Greek and Roman Art,-6,clay_earth,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,drawing_painting_other,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,enamel,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,glass,3,0.011235955056179775,267,True,3,0.011235955056179775,267,True,0.0
+Greek and Roman Art,-6,ink_watercolor_print,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,ivory_bone_horn,1,0.003745318352059925,267,True,1,0.003745318352059925,267,True,0.0
+Greek and Roman Art,-6,lacquer,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,oil_painting,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,other,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,other_metal,3,0.011235955056179775,267,True,3,0.011235955056179775,267,True,0.0
+Greek and Roman Art,-6,paper_parchment,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,stone,6,0.02247191011235955,267,True,6,0.02247191011235955,267,True,0.0
+Greek and Roman Art,-6,tempera_painting,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,textile,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,unknown,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-6,wood,0,0.0,267,True,0,0.0,267,True,0.0
+Greek and Roman Art,-5,bronze,6,0.029556650246305417,203,True,6,0.029556650246305417,203,True,0.0
+Greek and Roman Art,-5,ceramic,187,0.9211822660098522,203,True,187,0.9211822660098522,203,True,0.0
+Greek and Roman Art,-5,clay_earth,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,drawing_painting_other,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,enamel,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,glass,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,ink_watercolor_print,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,ivory_bone_horn,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,lacquer,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,oil_painting,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,other,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,other_metal,5,0.024630541871921183,203,True,5,0.024630541871921183,203,True,0.0
+Greek and Roman Art,-5,paper_parchment,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,stone,5,0.024630541871921183,203,True,5,0.024630541871921183,203,True,0.0
+Greek and Roman Art,-5,tempera_painting,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,textile,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,unknown,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-5,wood,0,0.0,203,True,0,0.0,203,True,0.0
+Greek and Roman Art,-4,bronze,8,0.17391304347826086,46,True,8,0.17391304347826086,46,True,0.0
+Greek and Roman Art,-4,ceramic,22,0.4782608695652174,46,True,22,0.4782608695652174,46,True,0.0
+Greek and Roman Art,-4,clay_earth,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,drawing_painting_other,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,enamel,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,glass,4,0.08695652173913043,46,True,4,0.08695652173913043,46,True,0.0
+Greek and Roman Art,-4,ink_watercolor_print,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,ivory_bone_horn,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,lacquer,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,oil_painting,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,other,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,other_metal,9,0.1956521739130435,46,True,9,0.1956521739130435,46,True,0.0
+Greek and Roman Art,-4,paper_parchment,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,stone,3,0.06521739130434782,46,True,3,0.06521739130434782,46,True,0.0
+Greek and Roman Art,-4,tempera_painting,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,textile,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,unknown,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-4,wood,0,0.0,46,True,0,0.0,46,True,0.0
+Greek and Roman Art,-3,bronze,2,0.06896551724137931,29,True,2,0.06896551724137931,29,True,0.0
+Greek and Roman Art,-3,ceramic,16,0.5517241379310345,29,True,16,0.5517241379310345,29,True,0.0
+Greek and Roman Art,-3,clay_earth,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,drawing_painting_other,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,enamel,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,glass,3,0.10344827586206896,29,True,3,0.10344827586206896,29,True,0.0
+Greek and Roman Art,-3,ink_watercolor_print,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,ivory_bone_horn,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,lacquer,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,oil_painting,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,other,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,other_metal,2,0.06896551724137931,29,True,2,0.06896551724137931,29,True,0.0
+Greek and Roman Art,-3,paper_parchment,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,stone,6,0.20689655172413793,29,True,6,0.20689655172413793,29,True,0.0
+Greek and Roman Art,-3,tempera_painting,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,textile,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,unknown,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-3,wood,0,0.0,29,True,0,0.0,29,True,0.0
+Greek and Roman Art,-1,bronze,5,0.09803921568627451,51,True,5,0.09803921568627451,51,True,0.0
+Greek and Roman Art,-1,ceramic,12,0.23529411764705882,51,True,12,0.23529411764705882,51,True,0.0
+Greek and Roman Art,-1,clay_earth,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,drawing_painting_other,1,0.0196078431372549,51,True,1,0.0196078431372549,51,True,0.0
+Greek and Roman Art,-1,enamel,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,glass,18,0.35294117647058826,51,True,18,0.35294117647058826,51,True,0.0
+Greek and Roman Art,-1,ink_watercolor_print,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,ivory_bone_horn,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,lacquer,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,oil_painting,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,other,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,other_metal,4,0.0784313725490196,51,True,4,0.0784313725490196,51,True,0.0
+Greek and Roman Art,-1,paper_parchment,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,stone,11,0.21568627450980393,51,True,11,0.21568627450980393,51,True,0.0
+Greek and Roman Art,-1,tempera_painting,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,textile,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,unknown,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,-1,wood,0,0.0,51,True,0,0.0,51,True,0.0
+Greek and Roman Art,1,bronze,7,0.12727272727272726,55,True,7,0.12727272727272726,55,True,0.0
+Greek and Roman Art,1,ceramic,7,0.12727272727272726,55,True,7,0.12727272727272726,55,True,0.0
+Greek and Roman Art,1,clay_earth,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,drawing_painting_other,1,0.01818181818181818,55,True,1,0.01818181818181818,55,True,0.0
+Greek and Roman Art,1,enamel,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,glass,22,0.4,55,True,22,0.4,55,True,0.0
+Greek and Roman Art,1,ink_watercolor_print,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,ivory_bone_horn,2,0.03636363636363636,55,True,2,0.03636363636363636,55,True,0.0
+Greek and Roman Art,1,lacquer,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,oil_painting,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,other,1,0.01818181818181818,55,True,1,0.01818181818181818,55,True,0.0
+Greek and Roman Art,1,other_metal,5,0.09090909090909091,55,True,5,0.09090909090909091,55,True,0.0
+Greek and Roman Art,1,paper_parchment,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,stone,10,0.18181818181818182,55,True,10,0.18181818181818182,55,True,0.0
+Greek and Roman Art,1,tempera_painting,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,textile,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,unknown,0,0.0,55,True,0,0.0,55,True,0.0
+Greek and Roman Art,1,wood,0,0.0,55,True,0,0.0,55,True,0.0

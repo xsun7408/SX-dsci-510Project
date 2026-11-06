@@ -1,0 +1,7 @@
+{
+  "records": 3000,
+  "date_eligible_records": 2990,
+  "medium_rule_version": "2",
+  "manifest": "sample_3000_510.json",
+  "description": "Compact processed metadata snapshot; no raw JSON responses, images, logs, or secrets."
+}

@@ -1,24 +1,36 @@
 department,medium_category,count
 Asian Art,bronze,61
-Asian Art,ceramic,166
+Asian Art,ceramic,181
+Asian Art,clay_earth,10
+Asian Art,drawing_painting_other,12
+Asian Art,enamel,13
 Asian Art,glass,5
-Asian Art,ink_watercolor_print,257
-Asian Art,other,145
-Asian Art,other_metal,74
-Asian Art,stone,36
-Asian Art,textile,219
+Asian Art,ink_watercolor_print,279
+Asian Art,ivory_bone_horn,33
+Asian Art,lacquer,40
+Asian Art,other,3
+Asian Art,other_metal,51
+Asian Art,paper_parchment,14
+Asian Art,stone,71
+Asian Art,textile,190
 Asian Art,unknown,10
 Asian Art,wood,27
-European Paintings,ink_watercolor_print,6
+European Paintings,drawing_painting_other,37
+European Paintings,enamel,13
+European Paintings,glass,2
+European Paintings,ink_watercolor_print,2
+European Paintings,ivory_bone_horn,64
 European Paintings,oil_painting,777
-European Paintings,other,125
-European Paintings,other_metal,2
+European Paintings,other,1
+European Paintings,other_metal,1
+European Paintings,paper_parchment,17
 European Paintings,tempera_painting,86
-European Paintings,textile,1
-European Paintings,wood,3
 Greek and Roman Art,bronze,60
 Greek and Roman Art,ceramic,688
+Greek and Roman Art,clay_earth,1
+Greek and Roman Art,drawing_painting_other,2
 Greek and Roman Art,glass,81
-Greek and Roman Art,other,55
-Greek and Roman Art,other_metal,83
-Greek and Roman Art,stone,33
+Greek and Roman Art,ivory_bone_horn,4
+Greek and Roman Art,other,4
+Greek and Roman Art,other_metal,73
+Greek and Roman Art,stone,87

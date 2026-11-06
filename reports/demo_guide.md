@@ -1,8 +1,7 @@
 # Five-minute demonstration guide
 
 This is a rehearsal plan for the current checkpoint. Q1 is demonstrated end to
-end and a minimal Streamlit application is available. Formal Q2 interpretation
-and Q3 remain unfinished. Prepare the later
+end and a minimal Streamlit application is available. Q2 descriptive results are now available; Q3 remains unfinished. Prepare the later
 results before the final course demo rather than presenting them as completed.
 
 ## Prepare before class
@@ -13,7 +12,8 @@ results before the final course demo rather than presenting them as completed.
 4. Open the [Q1 figure](figures/q1_date_distribution.png) and the
    [result summary](full_sample_results.md) in separate tabs. Enlarge the figure
    before presenting. The PNG, summary, and aggregate CSVs are available on GitHub;
-   the ignored raw cache must already be present on the demonstration machine.
+   the compact app snapshot is committed; the terminal snapshot/API analysis commands
+   require the completed raw research cache if used on the presentation machine.
 5. Use an activated Python environment. In the prepared cloud machine, replace
    `python` with `/workspace/met-venv/bin/python` if needed.
 
@@ -100,8 +100,8 @@ Switch to the already running Streamlit browser tab. Start with all departments
 and the full year range. Select European Paintings and point out its 1,000 matching
 records and median 1760. Narrow the year range and show that record counts,
 statistics, charts, and object metadata update together. Optionally choose one
-century to inspect the exploratory medium composition, without claiming a final
-Q2 finding. Reset the filters if returning to the full-sample statistics.
+century to inspect the exploratory medium composition, and explain the Q2 small-group/date limitations. Keep the
+full Q2 report available for questions. Reset the filters if returning to the full-sample statistics.
 
 Then open the committed Q1 figure and ask:
 
@@ -135,7 +135,7 @@ Say:
 > with adequate documentation. The current application is a minimal explorer. I do not use
 > PyTorch because this project does not need a machine-learning component.
 
-Do not imply that formal Q2 or Q3 analysis has been completed. The explorer
+The Q2 report provides descriptive results; do not imply that Q3 is complete. The explorer
 provides the simple application layer; further features should serve the
 remaining research questions rather than expand the frontend unnecessarily.
 
@@ -160,4 +160,4 @@ is a contingency, not proof that a fresh live request succeeded.
 - Why medians and quartiles? They describe the center and central spread while
   remaining informative in long-tailed distributions; uncertain dates still need
   a separate sensitivity analysis.
-- What is unfinished? Medium-rule review, formal Q2 interpretation, and the refined Q3. The basic interface is implemented.
+- What is unfinished? The refined Q3, further validation where appropriate, and the final course report. The interface and descriptive Q2 analysis are implemented.

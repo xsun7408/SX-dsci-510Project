@@ -1,0 +1,667 @@
+department,medium,medium_category,records,matched_categories
+Asian Art,"(a) silk, feathers, glass, metal, stone
+(b, c) metal, feathers, paint, glass
+(d–f) paper, silk",textile,1,textile|glass|stone|other_metal|paper_parchment
+Asian Art,Agate,stone,1,stone
+Asian Art,Agate or soapstone,stone,1,stone
+Asian Art,"Agate, jadeite",stone,1,stone
+Asian Art,"Agate, quartz",stone,1,stone
+Asian Art,Album leaf; ink and color on paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,Album leaf; ink and color on silk,ink_watercolor_print,4,ink_watercolor_print|textile
+Asian Art,Album leaf; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Album leaf; lacquer on paper,lacquer,2,lacquer|paper_parchment
+Asian Art,Album leaf; lacquer on silver paper,lacquer,1,lacquer|other_metal|paper_parchment
+Asian Art,Album of six leaves; ink and color on silk,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,Album of ten paintings; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Album of twelve leaves; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Album; silk,textile,1,textile
+Asian Art,Amber with coral stopper,other,1,
+Asian Art,American walnut,wood,2,wood
+Asian Art,Argillite,stone,1,stone
+Asian Art,Bamboo,wood,4,wood
+Asian Art,Basketry and red lacquer with gold and litharge painting,lacquer,1,lacquer|other_metal
+Asian Art,Bone,ivory_bone_horn,6,ivory_bone_horn
+Asian Art,Bowenite with gilt and painted design; ivory base,ivory_bone_horn,1,ivory_bone_horn
+Asian Art,Boxwood,wood,1,wood
+Asian Art,Brass,other_metal,3,other_metal
+Asian Art,Bronze,bronze,49,bronze
+Asian Art,Bronze inlaid with black pigment,bronze,1,bronze
+Asian Art,Bronze inlaid with gold and silver,bronze,1,bronze|other_metal
+Asian Art,Bronze with high-tin content or silver alloy,bronze,1,bronze|other_metal
+Asian Art,Bronze with metallic inlay,bronze,1,bronze
+Asian Art,Bronze with repoussé silver back,bronze,1,bronze|other_metal
+Asian Art,Bronze with traces of gilt,bronze,1,bronze
+Asian Art,"Bronze, silver inlay",bronze,1,bronze|other_metal
+Asian Art,"Brown stoneware (Yixing ware), fitted base",ceramic,1,ceramic
+Asian Art,Carnelian,stone,1,stone
+Asian Art,Carved black and red lacquer,lacquer,1,lacquer
+Asian Art,"Carved black, red, and yellow lacquer (tixi)",lacquer,1,lacquer
+Asian Art,Carved red lacquer; gilded basketry panels,lacquer,1,lacquer
+Asian Art,Carved wood with lacquer and pigments,lacquer,1,lacquer|wood
+Asian Art,"Chalcedony (""shadow agate"")",stone,1,stone
+Asian Art,Chalcedony with glass stopper,glass,2,glass|stone
+Asian Art,Chlorite schist,stone,1,stone
+Asian Art,Chloromelanite,stone,2,stone
+Asian Art,Chromolithograph on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Chromolithograph with varnish on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Chromolithographic on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Chromolithographic with vanish on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Circular fan-shaped. woodblock print; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Clay,clay_earth,2,clay_earth
+Asian Art,"Clay covered with a crackled glaze and decorated with polychrome enamels (Hizen ware, Kutani type)",ceramic,1,ceramic|enamel|clay_earth
+Asian Art,Clay covered with a spotted glaze (Kyoto ware),ceramic,1,ceramic|clay_earth
+Asian Art,Clay covered with a streaked glaze (Seto ware),ceramic,1,ceramic|clay_earth
+Asian Art,Clay covered with a transparent crackled and rich purple glaze (Kyoto ware),ceramic,1,ceramic|clay_earth
+Asian Art,Clay covered with buff crackled glaze and decoration in overglaze (Shino Oribe type),ceramic,1,ceramic|clay_earth
+Asian Art,"Clay covered with glaze (Tanba ware, Satsuma style glaze)",ceramic,1,ceramic|clay_earth
+Asian Art,Clay covered with glaze; right-handed itogiri (Takatori ware),ceramic,1,ceramic|clay_earth
+Asian Art,Clay with glaze (Izumo ware),ceramic,1,ceramic|clay_earth
+Asian Art,Clay with lustrous black glaze (Raku ware),ceramic,1,ceramic|clay_earth
+Asian Art,"Clay, unglazed, with decorations in dark blue enamel (Awata ware)",ceramic,1,ceramic|enamel|clay_earth
+Asian Art,"Clay; light crackled glaze with decoration in brown (Mino ware, Oribe type)",ceramic,1,ceramic|clay_earth
+Asian Art,Clay; ochre underglaze and mottled brown overglaze (Seto ware),ceramic,1,ceramic|clay_earth
+Asian Art,"Clay; reddish-brown glaze, single drip of darker blaze (Seto ware)",ceramic,1,ceramic|clay_earth
+Asian Art,Cloisonné enamel,enamel,4,enamel
+Asian Art,Cloisonné enamel on gilt copper,enamel,1,enamel|other_metal
+Asian Art,Conglomerate (pudding stone),stone,1,stone
+Asian Art,Copper,other_metal,3,other_metal
+Asian Art,Copper alloy,other_metal,3,other_metal
+Asian Art,"Copper alloy, splash gilding",other_metal,1,other_metal
+Asian Art,Copper and silver alloy (oborogin),other_metal,1,other_metal
+Asian Art,Coral with silver stopper inlaid with stones,other_metal,1,other_metal
+Asian Art,Cotton,textile,1,textile
+Asian Art,Diptych of woodblock prints; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Distemper and gold on blue silk,drawing_painting_other,1,drawing_painting_other|textile|other_metal
+Asian Art,Distemper and ink on cotton,drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|textile
+Asian Art,Distemper on cloth,drawing_painting_other,1,drawing_painting_other
+Asian Art,Drawing mounted as a hanging scroll; ink and charcoal underdrawing on paper,drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+Asian Art,Drawing; four sheets adhered together; pencil on paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+Asian Art,Drawing; ink and pencil on paper,drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+Asian Art,Drawing; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Drawing; ink on transparent paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,"Drawing; ink, pencil and pigment on tracing paper",drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+Asian Art,"Drawing; pencil, ink, and color on paper",drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+Asian Art,Earthenware,ceramic,2,ceramic
+Asian Art,Earthenware with carved and incised decoration,ceramic,1,ceramic
+Asian Art,Earthenware with colored glaze,ceramic,1,ceramic
+Asian Art,Earthenware with colored glaze (Sancai ware),ceramic,1,ceramic
+Asian Art,Earthenware with cream white glaze and iron-brown underglaze decoration,ceramic,1,ceramic|other_metal
+Asian Art,Earthenware with green lead glaze,ceramic,1,ceramic|other_metal
+Asian Art,Earthenware with incised decoration,ceramic,1,ceramic
+Asian Art,Earthenware with lead and copper glazes,ceramic,1,ceramic|other_metal
+Asian Art,Earthenware with lead green glaze,ceramic,1,ceramic|other_metal
+Asian Art,Earthenware with painted decoration,ceramic,2,ceramic
+Asian Art,Earthenware with pigment,ceramic,1,ceramic
+Asian Art,Earthenware with three-color (sancai) glaze,ceramic,1,ceramic
+Asian Art,Earthenware with traces of pigment,ceramic,1,ceramic
+Asian Art,Earthenware with traces of pigments,ceramic,1,ceramic
+Asian Art,Earthenware with yellow glaze,ceramic,1,ceramic
+Asian Art,Eight sheets pasted to an eight-panel folding screen; ink on paper; gold on paper,ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Embroidered silk,textile,1,textile
+Asian Art,Enamel on copper,enamel,1,enamel|other_metal
+Asian Art,Faience covered with enamels (Raku ware),ceramic,1,ceramic|enamel
+Asian Art,Faience decorated with colored enamels (Satsuma ware),ceramic,1,ceramic|enamel
+Asian Art,"Faience, covered with cream colored glaze, crackled and decorated with gold and enamels (Satsuma ware)",ceramic,2,ceramic|enamel|other_metal
+Asian Art,Fan mounted as an album leaf; ink and color on silk,ink_watercolor_print,3,ink_watercolor_print|textile
+Asian Art,Fan mounted as an album leaf; ink on silk,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,"Figured satin-weave silk with tie-dyeing, silk embroidery, and couched gold thread",textile,1,textile|other_metal
+Asian Art,First volume of a two-volume set of woodblock-printed books; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Folding fan (chūkei); ink, color, gold paint, and gold leaf on paper; bamboo ribs and lacquer",ink_watercolor_print,1,ink_watercolor_print|lacquer|other_metal|paper_parchment|wood
+Asian Art,Folding fan mounted as a hanging scroll; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Folding fan mounted as an album leaf; ink and color on alum paper,ink_watercolor_print,5,ink_watercolor_print|paper_parchment
+Asian Art,Folding fan mounted as an album leaf; ink on gold paper,ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Folding fan mounted as an album leaf; ink on paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,Four framed hanging scrolls; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Four loose sheets mounted together; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Framed painting; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Gilded bronze,bronze,2,bronze
+Asian Art,Gilt bronze,bronze,2,bronze
+Asian Art,Gilt copper alloy,other_metal,2,other_metal
+Asian Art,"Gilt copper alloy with semiprecious stones, lapis lazuli, and turquoise inlays",stone,1,stone|other_metal
+Asian Art,Gilt silver,other_metal,1,other_metal
+Asian Art,Gilt-copper alloy,other_metal,1,other_metal
+Asian Art,Glass,glass,1,glass
+Asian Art,"Glass with blue, brown and white decoration",glass,1,glass
+Asian Art,Glazed earthenware,ceramic,1,ceramic
+Asian Art,Glazed stoneware with carved and relief decoration,ceramic,1,ceramic
+Asian Art,Gold,other_metal,19,other_metal
+Asian Art,"Gold and silver lacquer ground with black and red togidashi maki-e
+Netsuke: fox-dancer; carved and lacquered wood, ivory
+Ojime: butterflies; cloisonné bead",enamel,1,enamel|lacquer|other_metal|ivory_bone_horn|wood
+Asian Art,Gold and silver maki-e with inlay of mother-of-pearl on lacquered ground,lacquer,1,lacquer|other_metal
+Asian Art,Gold and stone,stone,1,stone|other_metal
+Asian Art,Gold inlaid with eight stones,other_metal,1,other_metal
+Asian Art,"Gold lacquer over pewter, inlaid with mother-of-pearl",lacquer,1,lacquer|other_metal
+Asian Art,"Gold maki-e on black lacquer, inlaid with mother-of-pearl; silver mounts",lacquer,1,lacquer|other_metal
+Asian Art,"Gold maki-e, inlaid mother-of-pearl, and applied silver on black lacquer",lacquer,1,lacquer|other_metal
+Asian Art,Gold makie on black lacquer,lacquer,1,lacquer|other_metal
+Asian Art,Gold plated,other_metal,1,other_metal
+Asian Art,Gold with repoussé decoration,other_metal,1,other_metal
+Asian Art,"Gold, lapis lazuli, cinnabar, indigo, and orpiment pigments and black ink on paper",ink_watercolor_print,1,ink_watercolor_print|stone|other_metal|paper_parchment
+Asian Art,"Gold, moonstone",other_metal,1,other_metal
+Asian Art,"Gourd, ivory",ivory_bone_horn,1,ivory_bone_horn
+Asian Art,"Gourd, ivory, wood",ivory_bone_horn,1,ivory_bone_horn|wood
+Asian Art,Ground of black satin damask (rinzu),textile,1,textile
+Asian Art,Handscroll; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Handscroll; ink and color on silk,ink_watercolor_print,2,ink_watercolor_print|textile
+Asian Art,Handscroll; ink on paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,"Handscroll; ink, color, and gold on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Handscroll; silk,textile,1,textile
+Asian Art,Hanging scroll; ink and color on alum paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Hanging scroll; ink and color on kimono silk,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,Hanging scroll; ink and color on paper,ink_watercolor_print,7,ink_watercolor_print|paper_parchment
+Asian Art,Hanging scroll; ink and color on silk,ink_watercolor_print,12,ink_watercolor_print|textile
+Asian Art,Hanging scroll; ink on paper,ink_watercolor_print,17,ink_watercolor_print|paper_parchment
+Asian Art,Hanging scroll; ink on satin,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,Hanging scroll; ink on silk,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,"Hanging scroll; ink, color and gold on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Hanging scroll; on silk,textile,1,textile
+Asian Art,Hanging scroll; opaque color on paper,paper_parchment,1,paper_parchment
+Asian Art,Hanging scroll; paint on paper,paper_parchment,1,paper_parchment
+Asian Art,Hanging scroll; silk and hair embroidery on silk ground,textile,1,textile
+Asian Art,Hanging scroll; woodblock print; ink on paper with additional hand coloring,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,High-fired pottery (proto-porcelain) with traces of ash glaze,ceramic,1,ceramic
+Asian Art,Horizontal panel; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Horn,ivory_bone_horn,2,ivory_bone_horn
+Asian Art,Illustrated book,other,1,
+Asian Art,Indigo ink,ink_watercolor_print,1,ink_watercolor_print
+Asian Art,"Indigo-dyed plain-weave cotton, quilted and embroidered with white cotton thread",textile,1,textile
+Asian Art,Ink,ink_watercolor_print,4,ink_watercolor_print
+Asian Art,Ink and color on palm leaf,ink_watercolor_print,1,ink_watercolor_print
+Asian Art,Ink and color on paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,Ink and wash on paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,Ink and watercolor on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Ink on paper,ink_watercolor_print,15,ink_watercolor_print|paper_parchment
+Asian Art,"Ink, opaque watercolor, and gilt on paper",ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Ink, opaque watercolor, and gold on paper",ink_watercolor_print,8,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,"Ink, opaque watercolor, silver and gold on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Inrō: carved wood with lacquer imitating leather; gilded metal clasp; ojime: patinated metal bead; netsuke: Chinese boy (karako) with mask on shishi lion; carved wood,lacquer,1,lacquer|other_metal|wood
+Asian Art,"Inside plain gold and black lacquer; outside gold ground with raised design, animal biting feather; netsuke, ivory carving",lacquer,1,lacquer|other_metal|ivory_bone_horn
+Asian Art,Iron,other_metal,1,other_metal
+Asian Art,Iron and gold,other_metal,1,other_metal
+Asian Art,Ivory,ivory_bone_horn,18,ivory_bone_horn
+Asian Art,Ivory with metal disc,other_metal,1,other_metal|ivory_bone_horn
+Asian Art,"Ivory, wood",ivory_bone_horn,1,ivory_bone_horn|wood
+Asian Art,Ivory; inlaid tortoiseshell,ivory_bone_horn,1,ivory_bone_horn
+Asian Art,Jade,stone,3,stone
+Asian Art,Jade (nephrite),stone,4,stone
+Asian Art,"Jade (nephrite), wood, and ivory",stone,1,stone|ivory_bone_horn|wood
+Asian Art,Jade and silver,stone,1,stone|other_metal
+Asian Art,"Jade with gold, ermerald and ruby inlay",stone,1,stone|other_metal
+Asian Art,Jadeite,stone,1,stone
+Asian Art,"Jadeite, lavender veined with green of varied tone passing from pale green through lettuce green to bright emerald, with occasional touches of light brown",stone,1,stone
+Asian Art,"Jadeite, light grayish-green with blue",stone,1,stone
+Asian Art,"Jadeite, pea-green",stone,1,stone
+Asian Art,"Jadeite, white with veins and cloudings of emerald-green",stone,1,stone
+Asian Art,Lacquer,lacquer,6,lacquer
+Asian Art,"Lacquer with lacquer, litharge and gold painting",lacquer,1,lacquer|other_metal
+Asian Art,"Lacquer, fundame, gold, silver, black and red hiramakie, gold foil; Interior: nashiji and fundame",lacquer,1,lacquer|other_metal
+Asian Art,"Lacquer, fundame, sumie togidashi, applied metals; Interior: nashiji and fundame",lacquer,1,lacquer
+Asian Art,"Lacquer, guri, red, brown, black, grey layers; Interior: nashiji and fundame",lacquer,1,lacquer
+Asian Art,"Lacquer, roiro, gold hiramakie, raden, stained horn, ivory, chinkinbori; Interior: red lacquer and fundame, chinkinbori decoration",lacquer,1,lacquer|other_metal|ivory_bone_horn
+Asian Art,"Lacquer, roiro, nashiji, gold and coloured togidashi; Interior: roiro and fundame",lacquer,1,lacquer|other_metal
+Asian Art,"Lacquer, roiro, nashiji, gold foil, aogai inlay; Interior: nashiji and fundame",lacquer,1,lacquer|other_metal
+Asian Art,"Lacquer, roiro, nashiji, gold hiramakie, raden, metal inlay; Interior: nashiji and fundame",lacquer,1,lacquer|other_metal
+Asian Art,"Lacquered wood with gold, silver maki-e, cut-out gold foil",lacquer,1,lacquer|other_metal|wood
+Asian Art,"Lacquered wood with gold, silver, and red togidashimaki-e",lacquer,1,lacquer|other_metal|wood
+Asian Art,Lapis lazuli,stone,2,stone
+Asian Art,"Leaded brass with pigment, lost-wax cast",other_metal,1,other_metal
+Asian Art,Leaf from a printed book; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Lid: black lacquer ground with gold and silver togidashi maki-e and metal inlay
+Interior: nashiji ground with gold and silver hiramaki-e",lacquer,1,lacquer|other_metal
+Asian Art,"Light brown wood, gold and colored takamakie, aogai; Interior: plain",other_metal,1,other_metal|wood
+Asian Art,Limestone,stone,1,stone
+Asian Art,Limestone with traces of pigment,stone,1,stone
+Asian Art,Limestone with traces of pigment and gilding,stone,1,stone
+Asian Art,"Lithograph, printed in black and hand-colored with yellow and pink watercolor. Selectively applied glaze",ink_watercolor_print,1,ink_watercolor_print
+Asian Art,Lithograph; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Marble mounted in wood frame,stone,1,stone|wood
+Asian Art,Marble or limestone,stone,1,stone
+Asian Art,"Metal, silver?",other_metal,2,other_metal
+Asian Art,Middle sheet of a triptych of woodblock prints; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Monochrome woodblock print (sumie); ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Monochrome woodblock print; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Mordant- and resist-dyed plain-weave cotton,textile,1,textile
+Asian Art,Mud,clay_earth,2,clay_earth
+Asian Art,"Mud, gilded and painted",clay_earth,1,clay_earth
+Asian Art,"Mud, gilded and polychromed",clay_earth,2,clay_earth
+Asian Art,Nephrite,stone,14,stone
+Asian Art,"Nephrite, light gray heavily flecked with black",stone,1,stone
+Asian Art,"Nephrite, spinach-green",stone,1,stone
+Asian Art,"One bound, navy fabric-covered volume; ink, pencil on paper",drawing_painting_other,4,drawing_painting_other|ink_watercolor_print|paper_parchment
+Asian Art,One of a triptych of hanging scrolls; hand-colored woodblock print on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,One sheet of a triptych of woodblock prints (nishiki-e); ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Opaque watercolor and gold on paper,ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Opaque watercolor on palm leaf,ink_watercolor_print,1,ink_watercolor_print
+Asian Art,Opaque watercolor on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Opaque watercolor with gold on paper, inscribed in devanagari on the reverse",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,"Opaque watercolor, ink, silver, and gold on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,"Opaque watercolors with gold on paper, laid down in an album page with ornamental margins and border",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Paint on paper,paper_parchment,1,paper_parchment
+Asian Art,Painted enamel,enamel,6,enamel
+Asian Art,Painted terracotta,ceramic,3,ceramic
+Asian Art,Painted wood,wood,1,wood
+Asian Art,"Painted wood, ichiboku technique",wood,1,wood
+Asian Art,Pair of hanging scrolls; ink on paper,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,Pair of six-panel folding screens; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Pair of six-panel folding screens; ink, color, and brushed gold on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,"Pair of six-panel folding screens; ink, color, gold, mica, and gold leaf on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Pair of six-panel screens: ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Pair of unmounted hanging scrolls; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Paper,paper_parchment,11,paper_parchment
+Asian Art,Paper and cotton,textile,1,textile|paper_parchment
+Asian Art,Paper and metal paint / Paint,other_metal,1,other_metal|paper_parchment
+Asian Art,"Paper, silk",textile,1,textile|paper_parchment
+Asian Art,"Paper, silk thread",textile,1,textile|paper_parchment
+Asian Art,Part of an album of woodblock prints (surimono); ink and color on paper,ink_watercolor_print,7,ink_watercolor_print|paper_parchment
+Asian Art,Pewter inlaid with brass,other_metal,1,other_metal
+Asian Art,Phyllitic schist,stone,1,stone
+Asian Art,Pigments on mud plaster,clay_earth,1,clay_earth
+Asian Art,"Pigskin, silk",textile,1,textile
+Asian Art,"Plain-weave cotton, resist-dyed and painted with dyes and pigments (tsutsugaki)",textile,1,textile
+Asian Art,Plain-weave crepe silk with paste-resist dying (yūzen) and application of gold,textile,1,textile|other_metal
+Asian Art,"Plain-weave fabrics of cotton and of cotton and silk, some reinforced with embroidery",textile,1,textile
+Asian Art,Polychrome woodblock print; ink and color on paper,ink_watercolor_print,10,ink_watercolor_print|paper_parchment
+Asian Art,Porcelain,ceramic,6,ceramic
+Asian Art,Porcelain (Kyoto ware),ceramic,1,ceramic
+Asian Art,"Porcelain covered with powdered blue glaze, painted with colored enamels over transparent glaze, and painted with gold (Jingdezhen ware)",ceramic,1,ceramic|enamel|other_metal
+Asian Art,Porcelain decorated in blue (Koto ware),ceramic,1,ceramic
+Asian Art,Porcelain painted in overglaze famille verte enamels and gilt,ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted in overglaze polychrome enamels (Bencharong ware for Thai market ),ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted in overglaze polychrome enamels (Jingdezhen ware),ceramic,8,ceramic|enamel
+Asian Art,"Porcelain painted in overglaze polychrome enamels, and with crimson pink glaze (Jingdezhen ware)",ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted in overglazed rouge de fer enamels,ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted in polychrome enamels over a crackled glaze (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted in underglaze blue and overglaze polychrome enamels (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted in underglaze cobalt blue (Jingdezhen ware),ceramic,7,ceramic
+Asian Art,"Porcelain painted in underglaze cobalt blue (Jingdezhen ware), metal mouthrim",ceramic,1,ceramic|other_metal
+Asian Art,Porcelain painted in underglaze cobalt blue (Jingdezhen ware); European mount,ceramic,1,ceramic
+Asian Art,Porcelain painted in underglaze cobalt blue and overglaze polychrome enamels (Jingdezhen ware),ceramic,2,ceramic|enamel
+Asian Art,Porcelain painted with cobalt blue under and red enamel over transparent glaze (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,Porcelain painted with cobalt blue under transparent glaze,ceramic,1,ceramic
+Asian Art,Porcelain painted with crackled green glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain painted with polychrome enamels over the biscuit (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,Porcelain with brown glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,"Porcelain with cobalt blue under transparent glaze (Hizen ware, Arita type",ceramic,1,ceramic
+Asian Art,"Porcelain with cobalt blue under transparent glaze (Hizen ware, Arita type)",ceramic,1,ceramic
+Asian Art,"Porcelain with cobalt blue under transparent glaze (Hizen ware, Hasami type)",ceramic,1,ceramic
+Asian Art,Porcelain with colored enamels on the biscuit (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,Porcelain with copper red glaze (Jingdezhen ware),ceramic,1,ceramic|other_metal
+Asian Art,"Porcelain with copper red glaze (Jingdezhen ware), silver mount",ceramic,1,ceramic|other_metal
+Asian Art,Porcelain with crackled design,ceramic,1,ceramic
+Asian Art,Porcelain with crackled glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,"Porcelain with crackled green glaze (Jingdezhen ware), gilt bronze mounts",ceramic,1,ceramic|bronze
+Asian Art,Porcelain with glass stopper,ceramic,1,ceramic|glass
+Asian Art,Porcelain with green glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain with light blue glaze,ceramic,1,ceramic
+Asian Art,Porcelain with mirror black glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,"Porcelain with overglaze polychrome enamels, gold (Arita ware, Imari type)",ceramic,1,ceramic|enamel|other_metal
+Asian Art,Porcelain with peach-bloom glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain with polychrome enamel over the biscuit (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,Porcelain with raised decoration and peach-bloom and green glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain with relief decoration (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain with relief decoration and painted in overglaze polychrome enamels (Jingdezhen ware),ceramic,1,ceramic|enamel
+Asian Art,"Porcelain with relief decoration, painted in underglaze cobalt blue and copper red (Jingdezhen ware)",ceramic,1,ceramic|other_metal
+Asian Art,Porcelain with royal blue and opaque white glazes,ceramic,1,ceramic
+Asian Art,Porcelain with turqoise blue glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain with turquoise glaze (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Porcelain with underglaze blue (Arita ware),ceramic,1,ceramic
+Asian Art,Porcelain with underglaze blue (Hizen ware),ceramic,1,ceramic
+Asian Art,"Porcelain with underglaze blue (Hizen ware, Nabeshima type)",ceramic,1,ceramic
+Asian Art,"Porcelain with underglaze blue decoration (Hizen ware, Nabeshima type)",ceramic,1,ceramic
+Asian Art,"Porcelain with underglaze blue decoration and gold (Arita ware, Ko Imari type)",ceramic,1,ceramic|other_metal
+Asian Art,Porcelain with white glaze (Ding ware),ceramic,1,ceramic
+Asian Art,"Porcelain with yellow glaze (Jingdezhen ware), copper mounth rim",ceramic,1,ceramic|other_metal
+Asian Art,"Porcelain, relief ornament under light brown glaze, gilt (Jingdezhen ware)",ceramic,1,ceramic
+Asian Art,Porcelain: egg-shell,ceramic,1,ceramic
+Asian Art,"Porcelain; exterior, spiral millefleurs bands in a variety of enamels and gold; geometric bands in black and rust enamels and gold on lower part of bowl; interior, closely covered with tiny butterflies in red, black, yellow and pale blue enamels, with gold; gold lip rim (Satsuma ware)",ceramic,1,ceramic|enamel|other_metal
+Asian Art,Pottery,ceramic,5,ceramic
+Asian Art,"Pottery decorated in polychrome enamels (Hizen ware, Kutani type)",ceramic,1,ceramic|enamel
+Asian Art,Pottery incised and covered with glaze (Shidoro ware),ceramic,1,ceramic
+Asian Art,Pottery with moulded design covered with glaze (Takatori ware),ceramic,1,ceramic
+Asian Art,Pottery; silver band about rim (Kyoto ware),ceramic,1,ceramic|other_metal
+Asian Art,Purple sandalwood (zitan),wood,1,wood
+Asian Art,Raku decorated with slip under the glaze (Raku ware),ceramic,1,ceramic
+Asian Art,Ramie,textile,1,textile
+Asian Art,Red lacquer,lacquer,1,lacquer
+Asian Art,Red lacquer ground with gold and silver hiramaki-e and gold and silver foil,lacquer,1,lacquer|other_metal
+Asian Art,Red sandstone,stone,1,stone
+Asian Art,"Resist-dyed, painted, and embroidered silk crepe",textile,1,textile
+Asian Art,Rhinoceros horn,ivory_bone_horn,2,ivory_bone_horn
+Asian Art,Right panel of a tryptich of woodblock prints; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Right-hand sheet from a triptych of woodblock prints; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Rock crystal,stone,1,stone
+Asian Art,"Roughly potted; of coarse clay showing ridges and gashes; dark brown with splashes of crackled grayish glaze (Awata ware, Asahi type)",ceramic,1,ceramic|clay_earth
+Asian Art,Schist,stone,3,stone
+Asian Art,Section of a handscroll mounted as a hanging scroll; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Semi-eggshell porcelain with famille rose enamels,ceramic,1,ceramic|enamel
+Asian Art,Set of three hanging scrolls: ink and color on silk,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,Set of three woodblock printed books; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Set of three woodblock-printed books bound as one volume; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Set of two woodblock printed books; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Set: lacquered wood with gold, silver hiramaki-e, cut-out gold foil application on nashiji lacquer ground; sake bottles: pewter",lacquer,1,lacquer|other_metal|wood
+Asian Art,Sheet from a triptych of woodblock prints; ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Silk,textile,78,textile
+Asian Art,Silk / Brocaded,textile,1,textile
+Asian Art,Silk / Compound weave,textile,32,textile
+Asian Art,Silk / Tapestry,textile,2,textile
+Asian Art,Silk and metal thread tapestry (kesi),textile,1,textile|other_metal
+Asian Art,Silk and metallic thread,textile,1,textile
+Asian Art,"Silk and metallic thread embroidery on silk satin, brocade borders",textile,1,textile
+Asian Art,Silk and metallic thread on silk; resist-dyed and embroidered satin damask,textile,1,textile
+Asian Art,Silk and metallic thread tapestry (kesi),textile,1,textile
+Asian Art,Silk and metallic-thread embroidery on resist-dyed and painted silk satin damask (rinzu),textile,1,textile
+Asian Art,Silk and metallic-thread embroidery on silk satin damask (rinzu),textile,1,textile
+Asian Art,Silk cut velvet,textile,2,textile
+Asian Art,Silk damask (rinzu) with paste-resist dyeing and embroidery,textile,1,textile
+Asian Art,Silk embroidery,textile,1,textile
+Asian Art,Silk embroidery on silk satin,textile,1,textile
+Asian Art,Silk gauze embroidered with silk and metallic thread,textile,1,textile
+Asian Art,Silk on silk,textile,1,textile
+Asian Art,Silk satin with supplementary weft pattern,textile,1,textile
+Asian Art,Silk tapestry (kesi),textile,2,textile
+Asian Art,Silk with embroidery,textile,1,textile
+Asian Art,"Silk, bronze bells",textile,1,textile|bronze
+Asian Art,"Silk, gilt paper;  on silk",textile,1,textile|paper_parchment
+Asian Art,"Silk, glass seed pearls,  metallic thread;  on silk",textile,1,textile|glass
+Asian Art,"Silk, metal thread",textile,1,textile|other_metal
+Asian Art,"Silk, metallic thread",textile,14,textile
+Asian Art,"Silk, metallic thread on silk",textile,2,textile
+Asian Art,"Silk, metallic thread, and peacock feather embroidery on silk satin",textile,1,textile
+Asian Art,"Silk, metallic thread;  on silk",textile,7,textile
+Asian Art,"Silk, metallic thread; lampas",textile,1,textile
+Asian Art,Silk;  on silk,textile,4,textile
+Asian Art,Silver,other_metal,3,other_metal
+Asian Art,Six-panel folding screen; ink and gold on paper,ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,"Six-panel folding screen; ink, color, and gold on paper",ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,"Small pieces of bronze mounting, dust of pearls and mother-of-pearl, a small piece of gold jewelry",bronze,1,bronze|other_metal
+Asian Art,"Smoked timber, dwarf, and Takano bamboo",wood,1,wood
+Asian Art,Soapstone,stone,1,stone
+Asian Art,Soft paste porcelain with incised decoration (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Soft-paste porcelain painted in underglaze cobalt blue (Jingdezhen ware),ceramic,1,ceramic
+Asian Art,Stone,stone,11,stone
+Asian Art,Stoneware,ceramic,1,ceramic
+Asian Art,Stoneware covered with thin glaze (Bizen ware),ceramic,1,ceramic
+Asian Art,Stoneware with black glaze,ceramic,1,ceramic
+Asian Art,Stoneware with blue glaze (Jun ware),ceramic,1,ceramic
+Asian Art,Stoneware with brown glaze (Dangyangyu ware),ceramic,1,ceramic
+Asian Art,Stoneware with celadon glaze,ceramic,1,ceramic
+Asian Art,Stoneware with copper-green underglaze on opaque tin-white slip,ceramic,1,ceramic|other_metal
+Asian Art,Stoneware with crackled glaze (Jun ware),ceramic,1,ceramic
+Asian Art,Stoneware with incised decoration of lotus flowers,ceramic,1,ceramic
+Asian Art,Stoneware with incised decoration under a celadon glaze (Longquan ware),ceramic,1,ceramic
+Asian Art,Stoneware with incised floral décor and green glaze,ceramic,1,ceramic
+Asian Art,Stoneware with inlaid design under celadon glaze,ceramic,2,ceramic
+Asian Art,Stoneware with iron and straw-ash glaze (Shōdai ware),ceramic,1,ceramic|other_metal
+Asian Art,Stoneware with iron brown and cobalt blue under transparent glaze (Seto ware),ceramic,1,ceramic|other_metal
+Asian Art,Stoneware with iron-oxide glaze (Jian ware),ceramic,1,ceramic|other_metal
+Asian Art,"Stoneware with iron-oxide glaze, metal rim (Jian ware)",ceramic,1,ceramic|other_metal
+Asian Art,Stoneware with marbled clay,ceramic,1,ceramic|stone|clay_earth
+Asian Art,Stoneware with molded decoration under celadon glaze (Yaozhou ware),ceramic,1,ceramic
+Asian Art,Stoneware with natural ash glaze (Shigaraki ware),ceramic,1,ceramic
+Asian Art,"Stoneware with natural ash, feldspar, and iron glaze (Mino ware, Kuro-Oribe type)",ceramic,1,ceramic|other_metal
+Asian Art,Stoneware with overglaze enamels and gold (Satsuma ware),ceramic,1,ceramic|enamel|other_metal
+Asian Art,Stoneware with polychrome enamels over a transparent glaze (Kyoto ware),ceramic,1,ceramic|enamel
+Asian Art,Stoneware with polychrome glaze,ceramic,1,ceramic
+Asian Art,Stoneware with polychrome overglazes (Awata ware),ceramic,1,ceramic
+Asian Art,"Stoneware with relief decoration and polychrome glazes (Kyoto ware, Eiraku type)",ceramic,1,ceramic
+Asian Art,Stoneware with sand glaze,ceramic,1,ceramic
+Asian Art,Stoneware with splashed blue glaze (Jun ware),ceramic,1,ceramic
+Asian Art,"Stoneware with splashed blue glaze (Jun ware), Japanese gold lacquer repair",ceramic,1,ceramic|lacquer|other_metal
+Asian Art,"Stoneware with stamped, white-slip design",ceramic,1,ceramic
+Asian Art,Stoneware with traces of ash glaze,ceramic,1,ceramic
+Asian Art,"Streamers-silk, metallic thread;  top guard-silk, on silk;  center guard-silk, metallic thread, on silk",textile,1,textile
+Asian Art,Stucco,clay_earth,1,clay_earth
+Asian Art,Tawny agate,stone,1,stone
+Asian Art,Terracotta,ceramic,7,ceramic
+Asian Art,Tetraptych of woodblock prints (nishiki-e); vertical ōban,ink_watercolor_print,1,ink_watercolor_print
+Asian Art,"Timber bamboo, rattan, lacquer, and gold powder",lacquer,1,lacquer|other_metal|wood
+Asian Art,Triptych of woodblock prints; ink and color on paper,ink_watercolor_print,6,ink_watercolor_print|paper_parchment
+Asian Art,Twill weave silk brocade,textile,1,textile
+Asian Art,Twill-weave silk brocade with supplementary-weft patterning in metallic thread,textile,1,textile
+Asian Art,Twill-weave silk with supplementary weft patterning and metallic thread,textile,1,textile
+Asian Art,Two-sided folding fan mounted as an album leaf; ink and color on gold-flecked paper,ink_watercolor_print,1,ink_watercolor_print|other_metal|paper_parchment
+Asian Art,Unfired clay with pigment,clay_earth,1,clay_earth
+Asian Art,Unglazed Bizen stoneware,ceramic,1,ceramic
+Asian Art,Unglazed pottery,ceramic,1,ceramic
+Asian Art,Unmounted handscroll; ink on silk,ink_watercolor_print,1,ink_watercolor_print|textile
+Asian Art,Unmounted painting; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Unmounted shikisi leaf; ink and color on silk,ink_watercolor_print,2,ink_watercolor_print|textile
+Asian Art,"Vol. I: 9 double and 2 single page illustrations; vol. II: 15 double, 1 single page illustrations; ink on paper",ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,White and green jadeite with coral stopper,stone,1,stone
+Asian Art,White porcelain decorated in colored enamels,ceramic,1,ceramic|enamel
+Asian Art,"White porcelain decorated with blue and white (Arita ware, Imari type)",ceramic,1,ceramic
+Asian Art,White porcelain decorated with blue under the glaze,ceramic,2,ceramic
+Asian Art,White porcelain decorated with blue under the glaze (Hirado ware),ceramic,1,ceramic
+Asian Art,White porcelain decorated with blue under the glaze (Koto ware),ceramic,1,ceramic
+Asian Art,White porcelain decorated with blue under the glaze (Kyoto ware),ceramic,1,ceramic
+Asian Art,White porcelain decorated with blue under the glaze and gold,ceramic,1,ceramic|other_metal
+Asian Art,"White porcelain decorated with blue under the glaze, colored enamels (Arita ware)",ceramic,1,ceramic|enamel
+Asian Art,"White porcelain decorated with blue under the glaze, enamel, iron red and gold (Arita ware)",ceramic,1,ceramic|enamel|other_metal
+Asian Art,"White porcelain decorated with blue under the glaze, polychrome enamels and gold (Kyoto ware)",ceramic,1,ceramic|enamel|other_metal
+Asian Art,White porcelain decorated with polychrome enamels (Arita ware),ceramic,1,ceramic|enamel
+Asian Art,"White porcelain decorated with red and gold (Hizen ware, Kutani type)",ceramic,1,ceramic|other_metal
+Asian Art,"White porcelain, faintly green, with a flambé collar",ceramic,1,ceramic
+Asian Art,White triangular ribbon with yellow stripes,other,1,
+Asian Art,Wood,wood,14,wood
+Asian Art,"Wood (foxglove) with pigment, single-woodblock construction",ink_watercolor_print,1,ink_watercolor_print|wood
+Asian Art,"Wood (huanghuali, Dalbergia odorifera)",wood,1,wood
+Asian Art,Wood with black and red lacquer layers (Negoro ware),lacquer,1,lacquer|wood
+Asian Art,"Wood with lacquer, gold leaf, and color",lacquer,1,lacquer|other_metal|wood
+Asian Art,"Wood with lacquer, gold leaf, and metal decoration",lacquer,1,lacquer|other_metal|wood
+Asian Art,"Wood, metal, mother-of-pearl, lacquer",lacquer,1,lacquer|other_metal|wood
+Asian Art,"Wood; single-block (ichiboku-zukuri) construction, with traces of red and black pigment",wood,1,wood
+Asian Art,Woodblock print (nishiki-e); ink and color on paper,ink_watercolor_print,5,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock print (nishiki-e); ink and color on paper; vertical ōban,ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,"Woodblock print (nishiki-e); ink, color, white mica on paper",ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock print (surimono); ink and color on paper,ink_watercolor_print,13,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock print; ink and color on paper,ink_watercolor_print,62,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock print; ink on paper with additional hand coloring,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,"Woodblock print; ink, color, white mica on paper",ink_watercolor_print,2,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock printed book; ink and hand-coloring on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock printed book; ink on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock printed book; ink with hand-coloring (tanroku bon),ink_watercolor_print,1,ink_watercolor_print
+Asian Art,Woodblock ōban print (nishiki-e); ink and color on paper,ink_watercolor_print,1,ink_watercolor_print|paper_parchment
+Asian Art,Woodblock-printed book,ink_watercolor_print,2,ink_watercolor_print
+Asian Art,Woodcut prints,ink_watercolor_print,1,ink_watercolor_print
+Asian Art,Yellow glass,glass,1,glass
+Asian Art,[not recorded],unknown,10,
+Asian Art,"a Silk, metallic thread
+b Silk, metallic thread
+c Silk, metallic thread
+d Silk",textile,1,textile
+Asian Art,"cotton, wool, brass",textile,1,textile|other_metal
+European Paintings,Card,paper_parchment,2,paper_parchment
+European Paintings,Card laid on recent support,paper_parchment,1,paper_parchment
+European Paintings,Charcoal and white chalk on green commercially coated wove paper,drawing_painting_other,1,drawing_painting_other|stone|paper_parchment
+European Paintings,Distemper on canvas,drawing_painting_other,1,drawing_painting_other
+European Paintings,Enamel,enamel,12,enamel
+European Paintings,Enamel on gold,enamel,1,enamel|other_metal
+European Paintings,Fresco,drawing_painting_other,1,drawing_painting_other
+European Paintings,"Fresco, transferred to canvas",drawing_painting_other,5,drawing_painting_other
+European Paintings,Gouache on wove paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Gouache over graphite underdrawing on thin wove commercially coated yellow paper, laid down on board",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,Ivory,ivory_bone_horn,61,ivory_bone_horn
+European Paintings,Ivory laid on card,ivory_bone_horn,2,ivory_bone_horn|paper_parchment
+European Paintings,Ivory set into card,ivory_bone_horn,1,ivory_bone_horn|paper_parchment
+European Paintings,Oil and gold on beech,oil_painting,1,oil_painting|other_metal
+European Paintings,"Oil and gold on canvas, transferred from wood",oil_painting,1,oil_painting|other_metal|wood
+European Paintings,Oil and gold on fir,oil_painting,1,oil_painting|other_metal
+European Paintings,Oil and gold on linden,oil_painting,1,oil_painting|other_metal
+European Paintings,Oil and gold on oak,oil_painting,4,oil_painting|other_metal|wood
+European Paintings,"Oil and gold on paper, laid down on wood",oil_painting,1,oil_painting|other_metal|paper_parchment|wood
+European Paintings,"Oil and gold on parchment, laid down on linden",oil_painting,1,oil_painting|other_metal|paper_parchment
+European Paintings,Oil and gold on spruce,oil_painting,1,oil_painting|other_metal
+European Paintings,Oil and gold on wood,oil_painting,3,oil_painting|other_metal|wood
+European Paintings,"Oil and graphite on paper, laid down on canvas",oil_painting,1,oil_painting|drawing_painting_other|paper_parchment
+European Paintings,Oil and pencil on paper,oil_painting,1,oil_painting|drawing_painting_other|paper_parchment
+European Paintings,Oil colors freely mixed with turpentine on canvas,oil_painting,1,oil_painting
+European Paintings,Oil on beech,oil_painting,2,oil_painting
+European Paintings,"Oil on beech, with letterpress-printed paper labels",oil_painting,2,oil_painting|paper_parchment
+European Paintings,Oil on board,oil_painting,2,oil_painting
+European Paintings,Oil on board (laminated wood and straw pulp board),oil_painting,1,oil_painting|wood
+European Paintings,Oil on canvas,oil_painting,441,oil_painting
+European Paintings,"Oil on canvas, laid down on board",oil_painting,1,oil_painting
+European Paintings,"Oil on canvas, laid down on wood",oil_painting,1,oil_painting|wood
+European Paintings,"Oil on canvas, mounted on wood",oil_painting,1,oil_painting|wood
+European Paintings,"Oil on canvas, several pieces joined",oil_painting,1,oil_painting
+European Paintings,"Oil on canvas, transferred from wood",oil_painting,5,oil_painting|wood
+European Paintings,"Oil on canvas, transferred from wood, with letterpress-printed paper labels",oil_painting,1,oil_painting|paper_parchment|wood
+European Paintings,Oil on card,oil_painting,1,oil_painting|paper_parchment
+European Paintings,Oil on cardboard,oil_painting,3,oil_painting
+European Paintings,"Oil on cardboard, laid down on wood",oil_painting,1,oil_painting|wood
+European Paintings,Oil on copper,oil_painting,12,oil_painting|other_metal
+European Paintings,Oil on light brown paper,oil_painting,1,oil_painting|paper_parchment
+European Paintings,Oil on linden,oil_painting,5,oil_painting
+European Paintings,"Oil on linen, laid down on paper",oil_painting,1,oil_painting|textile|paper_parchment
+European Paintings,Oil on marble,oil_painting,1,oil_painting|stone
+European Paintings,Oil on oak,oil_painting,14,oil_painting|wood
+European Paintings,Oil on panel,oil_painting,1,oil_painting
+European Paintings,Oil on paper,oil_painting,12,oil_painting|paper_parchment
+European Paintings,"Oil on paper, laid down on board",oil_painting,2,oil_painting|paper_parchment
+European Paintings,"Oil on paper, laid down on canvas",oil_painting,30,oil_painting|paper_parchment
+European Paintings,"Oil on paper, laid down on card (paste-paper)",oil_painting,1,oil_painting|paper_parchment
+European Paintings,"Oil on paper, laid down on cardboard",oil_painting,9,oil_painting|paper_parchment
+European Paintings,"Oil on paper, laid down on illustration board",oil_painting,1,oil_painting|paper_parchment
+European Paintings,"Oil on paper, laid down on wood",oil_painting,11,oil_painting|paper_parchment|wood
+European Paintings,"Oil on paper, mounted on board",oil_painting,1,oil_painting|paper_parchment
+European Paintings,"Oil on paper, mounted on canvas",oil_painting,2,oil_painting|paper_parchment
+European Paintings,Oil on poplar,oil_painting,1,oil_painting
+European Paintings,"Oil on prepared paper, laid down on canvas",oil_painting,1,oil_painting|paper_parchment
+European Paintings,Oil on slate,oil_painting,1,oil_painting
+European Paintings,"Oil on two sheets of paper, laid down on Masonite",oil_painting,1,oil_painting|paper_parchment
+European Paintings,Oil on walnut,oil_painting,1,oil_painting|wood
+European Paintings,Oil on wood,oil_painting,174,oil_painting|wood
+European Paintings,"Oil on wood, gold ground",oil_painting,2,oil_painting|other_metal|wood
+European Paintings,"Oil on wood, mounted on wood",oil_painting,1,oil_painting|wood
+European Paintings,Oil(?) on wood,oil_painting,1,oil_painting|wood
+European Paintings,"Oil, egg(?), and gold on plywood, transferred from wood",oil_painting,1,oil_painting|other_metal|wood
+European Paintings,"Oil, gold, and white metal on linden",oil_painting,1,oil_painting|other_metal
+European Paintings,"Oil, gold, and white metal on spruce",oil_painting,1,oil_painting|other_metal
+European Paintings,"Oil, gold, and white metal on wood",oil_painting,1,oil_painting|other_metal|wood
+European Paintings,Paper,paper_parchment,2,paper_parchment
+European Paintings,Paper stretched over metal,other_metal,1,other_metal|paper_parchment
+European Paintings,"Pastel and black chalk on three pieces of wove paper, joined together",drawing_painting_other,1,drawing_painting_other|stone|paper_parchment
+European Paintings,Pastel and charcoal on buff-colored wove tracing paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel and charcoal on light pink wove paper, discolored at the edges",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel and charcoal on wove paper, laid down on blue wove paper, laid down on stretched canvas",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel and gouache on blue paper, laid down on canvas",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel on blue paper, seven sheets joined, laid down on canvas",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel on buff wove paper, affixed to original pulpboard mount",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,Pastel on buff-colored wove paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,Pastel on canvas,drawing_painting_other,3,drawing_painting_other
+European Paintings,Pastel on gessoed canvas,drawing_painting_other,1,drawing_painting_other
+European Paintings,"Pastel on green wove paper, now darkened to brown",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,Pastel on light blue laid paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel on light green wove paper, now discolored to warm gray, affixed to original pulpboard mount",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,Pastel on paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel on paper, laid down on canvas",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel on tracing paper, laid down on board",drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,Pastel on wood,drawing_painting_other,1,drawing_painting_other|wood
+European Paintings,Pastel on wove paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel over brush-and-ink drawing on thin cream-colored wove paper, laid down on bristol board and mounted on canvas",drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+European Paintings,Pastel over charcoal on tracing paper,drawing_painting_other,1,drawing_painting_other|paper_parchment
+European Paintings,"Pastel, black chalk, watercolor, and traces of black chalk underdrawing on four joined sheets of handmade blue laid paper, mounted on canvas and adhered to a keyed stretcher",drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|stone|paper_parchment
+European Paintings,"Pen and black ink, tempera, and glue size on canvas",tempera_painting,1,tempera_painting|ink_watercolor_print
+European Paintings,Pencil and red chalk on paper,drawing_painting_other,1,drawing_painting_other|stone|paper_parchment
+European Paintings,Pencil and some watercolor on paper,drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+European Paintings,Pencil and watercolor on card,drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+European Paintings,Pencil and watercolor on paper,drawing_painting_other,1,drawing_painting_other|ink_watercolor_print|paper_parchment
+European Paintings,Please see attached list,other,1,
+European Paintings,Plumbago on vellum,paper_parchment,1,paper_parchment
+European Paintings,"Tempera and gold on canvas, transferred from wood",tempera_painting,4,tempera_painting|other_metal|wood
+European Paintings,Tempera and gold on linen,tempera_painting,1,tempera_painting|textile|other_metal
+European Paintings,Tempera and gold on wood,tempera_painting,14,tempera_painting|other_metal|wood
+European Paintings,"Tempera and gold on wood, transferred to wood",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,Tempera and oil on wood,oil_painting,4,oil_painting|tempera_painting|wood
+European Paintings,"Tempera on canvas, stretched over wood, transferred from wood, gold ground",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,"Tempera on canvas, transferred from wood",tempera_painting,1,tempera_painting|wood
+European Paintings,"Tempera on paper, laid down on canvas, transferred from wood",tempera_painting,1,tempera_painting|paper_parchment|wood
+European Paintings,"Tempera on parchment, laid down on wood",tempera_painting,1,tempera_painting|paper_parchment|wood
+European Paintings,Tempera on wood,tempera_painting,18,tempera_painting|wood
+European Paintings,"Tempera on wood, embossed and gilt ornament",tempera_painting,1,tempera_painting|wood
+European Paintings,"Tempera on wood, gilt ornaments",tempera_painting,1,tempera_painting|wood
+European Paintings,"Tempera on wood, gold ground",tempera_painting,35,tempera_painting|other_metal|wood
+European Paintings,"Tempera on wood, gold ground, transferred to Masonite",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,"Tempera on wood, silver ground",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,"Tempera on wood, silver-gilt and enamel cover",tempera_painting,1,tempera_painting|enamel|other_metal|wood
+European Paintings,"Tempera on wood, traces of gold ground",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,"Tempera transferred to canvas, laid down on wood, gold ground",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,"Tempera, oil, and gold on wood",oil_painting,2,oil_painting|tempera_painting|other_metal|wood
+European Paintings,"Tempera, silver, and gold on wood",tempera_painting,1,tempera_painting|other_metal|wood
+European Paintings,Vellum,paper_parchment,8,paper_parchment
+European Paintings,Vellum laid on card,paper_parchment,1,paper_parchment
+European Paintings,Vellum laid on wood,paper_parchment,2,paper_parchment|wood
+European Paintings,Verre  fixé,glass,1,glass
+European Paintings,Verre fixé,glass,1,glass
+European Paintings,Watercolor and metallic paint on silk,ink_watercolor_print,1,ink_watercolor_print|textile
+European Paintings,Watercolor on ivory,ink_watercolor_print,1,ink_watercolor_print|ivory_bone_horn
+Greek and Roman Art,Agate,stone,3,stone
+Greek and Roman Art,"Agate, banded",stone,1,stone
+Greek and Roman Art,Amber,other,4,
+Greek and Roman Art,"Amber, bronze, ivory or bone",bronze,1,bronze|ivory_bone_horn
+Greek and Roman Art,Amethyst,stone,1,stone
+Greek and Roman Art,Basalt,stone,1,stone
+Greek and Roman Art,Basalt (diorite),stone,1,stone
+Greek and Roman Art,Bone,ivory_bone_horn,3,ivory_bone_horn
+Greek and Roman Art,Bronze,bronze,55,bronze
+Greek and Roman Art,"Bronze, bone",bronze,1,bronze|ivory_bone_horn
+Greek and Roman Art,"Bronze, copper, silver, niello",bronze,1,bronze|other_metal
+Greek and Roman Art,"Bronze, tin",bronze,1,bronze|other_metal
+Greek and Roman Art,Calcite alabaster,stone,1,stone
+Greek and Roman Art,Carnelian,stone,16,stone
+Greek and Roman Art,"Carnelian, silver",stone,2,stone|other_metal
+Greek and Roman Art,Chalcedony,stone,1,stone
+Greek and Roman Art,"Chalcedony, smoky, silver",stone,1,stone|other_metal
+Greek and Roman Art,Chalk,stone,1,stone
+Greek and Roman Art,Chlorite,stone,1,stone
+Greek and Roman Art,Clay,clay_earth,1,clay_earth
+Greek and Roman Art,Faience,ceramic,9,ceramic
+Greek and Roman Art,Fresco,drawing_painting_other,2,drawing_painting_other
+Greek and Roman Art,GOLD,other_metal,1,other_metal
+Greek and Roman Art,Garnet (Hyacinthine),stone,1,stone
+Greek and Roman Art,Gemstone ?,stone,1,stone
+Greek and Roman Art,Glass,glass,79,glass
+Greek and Roman Art,"Glass, brown",glass,1,glass
+Greek and Roman Art,"Glass, yellow",glass,1,glass
+Greek and Roman Art,Gold,other_metal,45,other_metal
+Greek and Roman Art,Gold with carnelian,stone,1,stone|other_metal
+Greek and Roman Art,"Gold, Sard",stone,1,stone|other_metal
+Greek and Roman Art,"Gold, amber",other_metal,1,other_metal
+Greek and Roman Art,"Gold, amethyst",stone,1,stone|other_metal
+Greek and Roman Art,"Gold, bronze",bronze,1,bronze|other_metal
+Greek and Roman Art,"Gold, carnelian",stone,1,stone|other_metal
+Greek and Roman Art,"Gold, garnet, finger bone",stone,1,stone|other_metal|ivory_bone_horn
+Greek and Roman Art,"Gold, gem",other_metal,1,other_metal
+Greek and Roman Art,"Gold, silver",other_metal,1,other_metal
+Greek and Roman Art,Gypsum (alabaster),stone,1,stone
+Greek and Roman Art,Haematite,stone,1,stone
+Greek and Roman Art,Iron,other_metal,2,other_metal
+Greek and Roman Art,Jasper,stone,1,stone
+Greek and Roman Art,"Jasper, green",stone,1,stone
+Greek and Roman Art,"Jasper, red",stone,1,stone
+Greek and Roman Art,"Jasper, red, gold",stone,1,stone|other_metal
+Greek and Roman Art,Lapis lazuli,stone,1,stone
+Greek and Roman Art,Lead,other_metal,5,other_metal
+Greek and Roman Art,Limestone,stone,12,stone
+Greek and Roman Art,Marble,stone,13,stone
+Greek and Roman Art,"Marble, Island",stone,1,stone
+Greek and Roman Art,"Marble, Pentelic",stone,2,stone
+Greek and Roman Art,"Marble, Pentelic ?",stone,1,stone
+Greek and Roman Art,"Nicolo, gold",other_metal,2,other_metal
+Greek and Roman Art,Rock crystal,stone,2,stone
+Greek and Roman Art,Sard,stone,2,stone
+Greek and Roman Art,"Sard, gold",stone,1,stone|other_metal
+Greek and Roman Art,Sardonyx,stone,1,stone
+Greek and Roman Art,Serpentine,stone,1,stone
+Greek and Roman Art,Silver,other_metal,11,other_metal
+Greek and Roman Art,"Silver, gold",other_metal,1,other_metal
+Greek and Roman Art,"Silver, onyx paste",other_metal,1,other_metal
+Greek and Roman Art,"Silver, plasma",other_metal,1,other_metal
+Greek and Roman Art,Steatite,stone,4,stone
+Greek and Roman Art,"Steatite, green",stone,1,stone
+Greek and Roman Art,Stone,stone,2,stone
+Greek and Roman Art,Terracotta,ceramic,677,ceramic
+Greek and Roman Art,"Terracotta, painted",ceramic,2,ceramic
+Greek and Roman Art,Undetermined ivory,ivory_bone_horn,1,ivory_bone_horn
+Greek and Roman Art,gold,other_metal,1,other_metal

@@ -1,0 +1,11 @@
+{
+  "medium_rule_version": "2",
+  "sample_records": 3000,
+  "date_eligible_records": 2990,
+  "date_eligible_excluding_wide": 2834,
+  "min_century_records": 20,
+  "observed_department_centuries": 80,
+  "qualifying_department_centuries": 23,
+  "unclassified_or_missing_records": 18,
+  "note": "All observed groups retained. Main figure/endpoints use the minimum-size rule. Descriptive sample composition only."
+}

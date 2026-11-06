@@ -7,9 +7,12 @@ import pandas as pd
 import streamlit as st
 
 from process_data import temporal_summary
+from analyze_media import medium_composition
 
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = Path(os.environ.get('MET_DATA_PATH', str(ROOT / 'data/processed_3000/objects_clean.csv')))
+LOCAL_DATA = ROOT / 'data/processed_3000/objects_clean.csv'
+DEFAULT_DATA = LOCAL_DATA if LOCAL_DATA.exists() else ROOT / 'app_data/objects.csv'
+DATA_PATH = Path(os.environ.get('MET_DATA_PATH', str(DEFAULT_DATA)))
 
 
 @st.cache_data
@@ -60,21 +63,25 @@ def main():
     st.dataframe(temporal_summary(filtered), hide_index=True)
 
     st.subheader('Medium composition by recorded start century')
-    st.caption('Exploratory keyword categories; other/unknown are retained. Centuries with few records can produce unstable percentages.')
-    # Preserve department groups, then normalize each observed department-century row.
-    table = pd.crosstab([filtered['department'], filtered['century']], filtered['medium_category'])
-    matrix = table.to_numpy(dtype=float)
-    totals = matrix.sum(axis=1, keepdims=True)
-    shares = np.divide(matrix, totals, out=np.zeros_like(matrix), where=totals > 0)
-    composition = pd.DataFrame(shares * 100, index=table.index, columns=table.columns)
-    options = sorted(int(value) for value in filtered['century'].dropna().unique())
-    # A single century has a well-defined composition even when a time trend cannot be inferred.
-    century = st.selectbox('Inspect century', options, format_func=lambda c: f'{abs(c)} century {"BCE" if c < 0 else "CE"}')
-    century_rows = composition.loc[composition.index.get_level_values('century') == century]
-    st.bar_chart(century_rows.droplevel('century'))
-    details = composition.round(1).reset_index()
-    details['Records'] = totals.ravel().astype(int)
-    st.dataframe(details, hide_index=True)
+    st.caption('Ordered coarse categories; other/unknown remain in denominators. Observed centuries can have gaps; these sample proportions do not establish worldwide historical trends.')
+    large_groups_only = st.checkbox('Limit medium comparisons to department-centuries with at least 20 records', value=True)
+    composition = medium_composition(filtered, min_count=20)
+    shown = composition.loc[composition['sufficient_n']] if large_groups_only else composition
+    if shown.empty:
+        st.info('No department-century has 20 matching records. Widen the date range or turn off the medium sample-size limit.')
+    else:
+        shares = shown.pivot(index=['department', 'century'], columns='medium_category', values='share') * 100
+        counts = shown.groupby(['department', 'century'])['records'].first()
+        for department in sorted(shown['department'].unique()):
+            trend = shares.loc[department].copy()
+            trend.index = [f'{abs(int(c))} {"BCE" if c < 0 else "CE"} (n={int(counts.loc[(department, c)])})' for c in trend.index]
+            st.write(department)
+            st.bar_chart(trend)
+        details = shares.round(1).reset_index()
+        details['Records'] = counts.to_numpy()
+        st.dataframe(details, hide_index=True)
+        if not large_groups_only:
+            st.warning('Small century groups are included; large percentages may reflect only one or a few objects.')
 
     st.subheader('Example object metadata')
     st.caption('Up to five matching objects, sorted by objectID; these are examples, not a representative subsample.')

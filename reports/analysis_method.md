@@ -73,3 +73,19 @@ python -m unittest discover -s tests -v
 The processing script rejects incomplete samples. Results must be calculated
 from acquired records, not hard-coded findings. Committed tables and the PNG
 are a checkpoint snapshot; regenerated outputs remain under ignored `data/`.
+
+## Reviewed medium classification (version 2) and Q2
+
+Version 2 prioritizes ceramic descriptions over decorative enamel wording, and
+ink/watercolor/print techniques over textile support. It adds explicit groups for
+other drawing/painting media, enamel, lacquer, ivory/bone/horn, clay/earth, and
+paper/parchment, plus reviewed mineral and wood terms. For example, ink on silk
+is an ink-work category, porcelain with enamels remains ceramic, and unfired clay
+is not forced into a fired-ceramic category. These remain coarse ordered
+conventions for mixed media, not definitive museum taxonomy.
+
+Q2 uses pandas crosstab counts and NumPy row sums with `keepdims=True` to compute
+within-department/century shares through broadcasting. Other/unknown records stay
+in denominators. All observed groups are saved; the main chart uses n >= 20. The
+wide-date check records both percentage changes and loss of qualifying groups,
+so a vanished or newly sparse century is not silently omitted from limitations.

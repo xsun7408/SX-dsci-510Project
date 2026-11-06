@@ -1,0 +1,4 @@
+# API-derived CSV fields can contain intentional spaces and multiline descriptions.
+# Preserve their text; validate these data artifacts using CSV parsing and row checks.
+app_data/*.csv -whitespace
+reports/results/*.csv -whitespace

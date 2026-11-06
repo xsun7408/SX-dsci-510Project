@@ -1,0 +1,81 @@
+department,century,records,sufficient_n,records_excluding_wide,sufficient_n_excluding_wide
+Asian Art,-32,1,False,0,False
+Asian Art,-25,1,False,0,False
+Asian Art,-23,1,False,1,False
+Asian Art,-15,2,False,1,False
+Asian Art,-13,2,False,2,False
+Asian Art,-12,4,False,2,False
+Asian Art,-11,3,False,3,False
+Asian Art,-10,4,False,0,False
+Asian Art,-9,1,False,1,False
+Asian Art,-8,1,False,1,False
+Asian Art,-6,2,False,1,False
+Asian Art,-5,12,False,1,False
+Asian Art,-4,2,False,2,False
+Asian Art,-3,11,False,8,False
+Asian Art,-2,4,False,4,False
+Asian Art,-1,2,False,2,False
+Asian Art,1,6,False,6,False
+Asian Art,2,2,False,2,False
+Asian Art,3,4,False,4,False
+Asian Art,4,4,False,4,False
+Asian Art,5,8,False,8,False
+Asian Art,6,11,False,11,False
+Asian Art,7,20,True,19,False
+Asian Art,8,17,False,16,False
+Asian Art,9,7,False,7,False
+Asian Art,10,19,False,18,False
+Asian Art,11,14,False,14,False
+Asian Art,12,10,False,10,False
+Asian Art,13,17,False,17,False
+Asian Art,14,36,True,33,True
+Asian Art,15,23,True,23,True
+Asian Art,16,58,True,58,True
+Asian Art,17,209,True,209,True
+Asian Art,18,282,True,282,True
+Asian Art,19,133,True,133,True
+Asian Art,20,54,True,54,True
+Asian Art,21,4,False,4,False
+European Paintings,12,1,False,1,False
+European Paintings,13,5,False,5,False
+European Paintings,14,25,True,25,True
+European Paintings,15,92,True,92,True
+European Paintings,16,128,True,128,True
+European Paintings,17,171,True,171,True
+European Paintings,18,212,True,212,True
+European Paintings,19,350,True,350,True
+European Paintings,20,16,False,16,False
+Greek and Roman Art,-70,51,True,0,False
+Greek and Roman Art,-50,2,False,0,False
+Greek and Roman Art,-40,1,False,0,False
+Greek and Roman Art,-39,12,False,0,False
+Greek and Roman Art,-38,1,False,1,False
+Greek and Roman Art,-32,2,False,0,False
+Greek and Roman Art,-30,9,False,1,False
+Greek and Roman Art,-29,2,False,0,False
+Greek and Roman Art,-26,3,False,0,False
+Greek and Roman Art,-25,3,False,0,False
+Greek and Roman Art,-22,1,False,0,False
+Greek and Roman Art,-20,9,False,7,False
+Greek and Roman Art,-19,2,False,2,False
+Greek and Roman Art,-18,2,False,2,False
+Greek and Roman Art,-17,4,False,4,False
+Greek and Roman Art,-16,11,False,7,False
+Greek and Roman Art,-15,2,False,2,False
+Greek and Roman Art,-14,5,False,5,False
+Greek and Roman Art,-13,2,False,2,False
+Greek and Roman Art,-12,3,False,3,False
+Greek and Roman Art,-11,4,False,4,False
+Greek and Roman Art,-9,15,False,3,False
+Greek and Roman Art,-8,20,True,20,True
+Greek and Roman Art,-7,140,True,117,True
+Greek and Roman Art,-6,267,True,267,True
+Greek and Roman Art,-5,203,True,203,True
+Greek and Roman Art,-4,46,True,46,True
+Greek and Roman Art,-3,29,True,29,True
+Greek and Roman Art,-2,13,False,13,False
+Greek and Roman Art,-1,51,True,51,True
+Greek and Roman Art,1,55,True,55,True
+Greek and Roman Art,2,17,False,17,False
+Greek and Roman Art,3,9,False,9,False
+Greek and Roman Art,4,3,False,3,False

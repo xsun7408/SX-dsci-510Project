@@ -21,18 +21,26 @@ from acquire import load_cache
 
 
 # First matching category wins; preserve the raw medium for review.
+MEDIUM_RULE_VERSION = '2'
 MEDIUM_RULES = [
     ('oil_painting', r'\boil\b'),
     ('tempera_painting', r'\btempera\b'),
-    ('ceramic', r'ceramic|porcelain|terracotta|terra\s*cotta|stoneware|earthenware|pottery|faience'),
-    ('textile', r'textile|silk|cotton|wool|linen|tapestry|embroid|weav|woven|velvet'),
+    ('ceramic', r'ceramic|porcelain|terracotta|terra\s*cotta|stoneware|earthenware|pottery|faience|\braku\b|\bclay\b(?=.*glaz)'),
+    ('drawing_painting_other', r'pastel|gouache|charcoal|graphite|pencil|fresco|distemper'),
+    ('ink_watercolor_print', r'\bink\b|watercolor|watercolour|woodblock|woodcut|engraving|etching|lithograph'),
+    ('enamel', r'enamel|cloisonn'),
+    ('lacquer', r'lacquer'),
+    ('textile', r'textile|silk|cotton|wool|linen|tapestry|embroid|weav|woven|velvet|ramie|satin|damask'),
     ('bronze', r'\bbronze\b'),
-    ('glass', r'\bglass\b'),
-    ('ink_watercolor_print', r'\bink\b|watercolor|watercolour|woodblock|engraving|etching|lithograph'),
-    ('stone', r'marble|limestone|sandstone|granite|jade|\bstone\b|alabaster'),
-    ('other_metal', r'\bgold\b|\bsilver\b|\bcopper\b|\biron\b|\blead\b|\bmetal\b'),
-    ('wood', r'\bwood\b|bamboo'),
+    ('glass', r'\bglass\b|verre'),
+    ('stone', r'marble|limestone|sandstone|granite|jade|\bstone\b|alabaster|nephrite|schist|lapis lazuli|chloromelanite|carnelian|steatite|agate|\bsard\b|rock crystal|serpentine|gemstone|amethyst|garnet|jasper|chlorite|chalcedony|basalt|sardonyx|haematite|hematite|\bchalk\b|argillite|soapstone'),
+    ('other_metal', r'\bgold\b|\bsilver\b|\bcopper\b|\biron\b|\blead\b|\bmetal\b|\bbrass\b|\bpewter\b|\btin\b'),
+    ('ivory_bone_horn', r'ivory|\bbone\b|\bhorn\b'),
+    ('clay_earth', r'\bclay\b|\bmud\b|plaster|stucco'),
+    ('paper_parchment', r'\bpaper\b|\bcard\b|parchment|vellum'),
+    ('wood', r'\bwood\b|bamboo|walnut|sandalwood|\boak\b|\bcedar\b|\bebony\b|boxwood'),
 ]
+
 
 
 # Signed centuries: -100..-1 -> -1, 1..100 -> 1; leave zero/malformed years unset.
@@ -165,6 +173,7 @@ def process(manifest_path, output_dir):
                 'unknown_dates': int(df['date_unknown'].sum()), 'zero_date_review': int(df['date_zero_review'].sum()),
                 'wide_date_spans': int(df['date_wide_span'].sum()),
                 'medium_other_or_unknown': int(df['medium_category'].isin(['other', 'unknown']).sum()),
+                'medium_rule_version': MEDIUM_RULE_VERSION,
                 'date_rule': 'Begin-year analysis; exclude missing/nonfinite/noninteger/reversed/zero-bound intervals; wide spans retained with separate sensitivity results.',
                 'scope': 'Equal-target department sample of metadata, not collection proportions; no isPublicDomain filter.'}
     (output_dir / 'processing_summary.json').write_text(json.dumps(metadata, indent=2), encoding='utf-8')

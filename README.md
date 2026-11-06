@@ -12,7 +12,7 @@ for an individual DSCI 510 project.
 - Completed initial pandas cleaning and Q1 NumPy summaries and visualization.
   Current date rules leave **2,990 records** eligible for Q1.
 - Added a minimal Streamlit explorer with department/year filters, data-driven
-  charts, and object metadata. Formal Q2 interpretation and Q3 remain unfinished.
+  charts, and object metadata. Q2 now has a descriptive report and date-sensitivity check; Q3 remains unfinished.
 
 Read the [results and limitations](reports/full_sample_results.md) and
 [analysis methods](reports/analysis_method.md). This checkpoint is not the final
@@ -34,8 +34,7 @@ python -m unittest discover -s tests -v
 
 On Windows, activate with `.venv\Scripts\Activate.ps1` in PowerShell. In the
 prepared cloud environment, `/workspace/met-venv/bin/python` is already available
-and can be used instead of creating another environment. No background services
-or API key are required.
+and can be used instead of creating another environment. No API key is required. Streamlit is started separately when using the explorer.
 
 ## Reproduce the recorded sample
 
@@ -81,7 +80,7 @@ new requests; use the demo when demonstrating live API acquisition.
 
 ## Simple application
 
-After processing the sample, start the explorer from the checkout root:
+Start the explorer from the checkout root (the committed compact snapshot is sufficient):
 
 ```bash
 python -m streamlit run app.py --browser.gatherUsageStats=false
@@ -89,13 +88,13 @@ python -m streamlit run app.py --browser.gatherUsageStats=false
 
 On your presentation machine, use the browser window opened by Streamlit. Select
 a department and a recorded begin-year range to update all counts, summaries,
-date histograms, medium-composition tables, and example metadata. The medium
-view is exploratory and includes `other`/`unknown`; it is not a finalized Q2
-conclusion. The app reads `data/processed_3000/objects_clean.csv`, or a custom
-processed file specified by `MET_DATA_PATH`. It makes no API calls while filtering.
-The processed file is not committed, so downloading the repository alone does not
-supply its data: run acquisition and processing first, or use the existing cloud
-cache. See the [five-minute guide](reports/demo_guide.md) to rehearse the demo.
+date histograms, medium-composition tables, and example metadata. The medium view uses the reviewed coarse categories and includes `other`/`unknown`.
+See the [Q2 report](reports/q2_results.md) for descriptive conclusions and limitations.
+The app prefers `data/processed_3000/objects_clean.csv` when present, otherwise
+uses the committed `app_data/objects.csv`; `MET_DATA_PATH` can select a custom file.
+It makes no API calls while filtering. A fresh clone can open the explorer using
+the compact snapshot without reacquiring raw records. To create a clickable hosted
+website, follow the [Community Cloud deployment steps](reports/deployment.md). See the [five-minute guide](reports/demo_guide.md) to rehearse the demo.
 
 ## Code and outputs
 
@@ -107,6 +106,9 @@ cache. See the [five-minute guide](reports/demo_guide.md) to rehearse the demo.
 | `api_demo.py` | Small live acquisition demonstration |
 | `demo_snapshot.py` | Cached DataFrame examples and NumPy statistics for presentation |
 | `app.py` | Streamlit department/year filters, charts, and example metadata |
+| `analyze_media.py` | Q2 proportions, sample-size flags, sensitivity, rule audit, and figure |
+| `prepare_app_data.py` | Export the compact processed hosting snapshot |
+| `app_data/` | Compact processed fields for running the app without the raw cache |
 | `tests/` | Mocked acquisition tests and numerical/date boundary tests |
 | `sampling/` | Fixed sample IDs and acquisition metadata; no full object responses |
 | `reports/results/` | Committed aggregate statistics for the verified checkpoint |
@@ -140,7 +142,7 @@ retain the original text for review.
 Equal department targets cannot establish full-collection proportions. Departments
 contain different object types, including frames. Metadata is sampled without an
 `isPublicDomain` filter; image permissions require separate checking. No images
-were acquired for this checkpoint. Eleven tests passed, including three app tests; synthetic fixtures are
+were acquired for this checkpoint. Fifteen tests passed, including app and medium-analysis tests; synthetic fixtures are
 used only for tests, not research conclusions.
 
 ## Source
@@ -152,3 +154,14 @@ used only for tests, not research conclusions.
 - The documentation states no API key is required and requests should be limited
   to 80 per second. The verified full run used approximately one request per
   second. Check current usage guidance before a new large run.
+
+## Q2 checkpoint
+
+Run `python analyze_media.py` after processing. The [Q2 report](reports/q2_results.md)
+compares within-department/start-century composition. Full tables retain all 80
+observed department-centuries; the main figure uses the 23 groups with n >= 20.
+Medium rule version 2 reduces other/unknown records from 335 to 18, while retaining
+the original medium text. Classification remains a coarse first-match convention.
+The date-sensitivity report explicitly identifies groups that disappear or become
+too small after removing wide date intervals. Q3 and the final course report remain
+to be completed.
