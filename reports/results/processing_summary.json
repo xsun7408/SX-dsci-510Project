@@ -1,0 +1,11 @@
+{
+  "manifest": "sample_3000_510.json",
+  "sample_records": 3000,
+  "valid_date_records": 2990,
+  "unknown_dates": 9,
+  "zero_date_review": 1,
+  "wide_date_spans": 156,
+  "medium_other_or_unknown": 335,
+  "date_rule": "Begin-year analysis; exclude missing/nonfinite/noninteger/reversed/zero-bound intervals; wide spans retained with separate sensitivity results.",
+  "scope": "Equal-target department sample of metadata, not collection proportions; no isPublicDomain filter."
+}

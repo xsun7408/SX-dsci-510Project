@@ -1,0 +1,4 @@
+department,records,culture_missing_pct,country_missing_pct,medium_missing_pct,artistNationality_missing_pct,objectBeginDate_missing_pct,objectEndDate_missing_pct
+Asian Art,1000,0.0,100.0,1.0,76.4,0.0,0.0
+European Paintings,1000,100.0,100.0,0.0,0.2,0.0,0.0
+Greek and Roman Art,1000,4.0,100.0,0.0,100.0,0.0,0.0

@@ -1,0 +1,4 @@
+department,sample_records,valid_date_records,median_begin_year,q1_begin_year,q3_begin_year,iqr_years
+Asian Art,1000,991,1700.0,1500.0,1800.0,300.0
+European Paintings,1000,1000,1760.0,1600.0,1840.0,240.0
+Greek and Roman Art,1000,999,-530.0,-650.0,-480.0,170.0

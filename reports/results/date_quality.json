@@ -1,0 +1,10 @@
+{
+  "target": 3000,
+  "acquired": 3000,
+  "missing_ids": [],
+  "negative_begin_years": 968,
+  "zero_begin_years": 10,
+  "begin_after_end": 0,
+  "date_spans_over_500_years": 156,
+  "note": "Missing means absent/null/blank; zero dates are flagged separately, not treated as missing. Metadata includes both public-domain and other records."
+}
