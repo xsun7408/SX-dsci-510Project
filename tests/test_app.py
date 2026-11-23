@@ -54,6 +54,31 @@ class AppTests(unittest.TestCase):
         self.assertIn('No records match', at.info[0].value)
         self.assertEqual(len(at.dataframe), 0)
 
+    def test_missing_culture_is_undefined_not_zero(self):
+        at = self.app()
+        coverage = next(frame.value for frame in at.dataframe if 'shannon_nats' in frame.value.columns)
+        self.assertTrue(coverage['shannon_nats'].isna().all())
+        self.assertTrue(coverage['documented'].eq(0).all())
+        self.assertTrue(any('undefined, not zero' in item.value for item in at.info))
+
+    def test_culture_indices_update_with_year_filter(self):
+        import pandas as pd
+        data = pd.read_csv(self.path)
+        data['culture'] = data['culture'].astype('string')
+        data.loc[data['objectID'].eq(1), 'culture'] = 'Greek'
+        data.loc[data['objectID'].eq(2), 'culture'] = 'Roman'
+        data.to_csv(self.path, index=False)
+        at = self.app()
+        at.sidebar.selectbox[0].set_value('European Paintings').run()
+        self.assertFalse(at.exception)
+        coverage = next(frame.value for frame in at.dataframe if 'shannon_nats' in frame.value.columns)
+        self.assertAlmostEqual(coverage['shannon_nats'].iloc[0], 0.6931471805599453)
+        at.sidebar.slider[0].set_value((1850, 1900)).run()
+        self.assertFalse(at.exception)
+        coverage = next(frame.value for frame in at.dataframe if 'shannon_nats' in frame.value.columns)
+        self.assertEqual(coverage['shannon_nats'].iloc[0], 0)
+        self.assertEqual(coverage['documented'].iloc[0], 1)
+
     def test_missing_processed_data_has_actionable_message(self):
         self.path.unlink()
         at = self.app()

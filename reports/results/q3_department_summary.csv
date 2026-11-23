@@ -1,0 +1,4 @@
+department,records,documented,uncertain_label_records,missing,coverage,shannon_nats,gini_simpson,effective_labels,distinct_labels,sufficient_n
+Asian Art,1000,1000,17,0,1.0,1.7641070655893296,0.6625880000000007,5.836358545257909,89,True
+European Paintings,1000,0,0,1000,0.0,,,,0,False
+Greek and Roman Art,1000,960,16,40,0.96,2.03286299263314,0.7028255208333328,7.6359166670276775,66,True

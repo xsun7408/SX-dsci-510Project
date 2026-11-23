@@ -1,0 +1,156 @@
+department,culture_label,count,documented,share_documented
+Asian Art,Afghanistan,1,1000,0.001
+Asian Art,Bangladesh or India (Bengal),1,1000,0.001
+Asian Art,Cambodia,3,1000,0.003
+Asian Art,Canada (British Columbia),1,1000,0.001
+Asian Art,Central Asia,2,1000,0.002
+Asian Art,Central Tibet,1,1000,0.001
+Asian Art,China,363,1000,0.363
+Asian Art,China (?),1,1000,0.001
+Asian Art,"China (Xinjiang Autonomous Region, Central Asia)",1,1000,0.001
+Asian Art,China (Xinjiang Uyghur Autonomous Region),1,1000,0.001
+Asian Art,China (Yi),1,1000,0.001
+Asian Art,China or Japan,4,1000,0.004
+Asian Art,China or Tibet,1,1000,0.001
+Asian Art,"China, Suzhou",2,1000,0.002
+Asian Art,France,1,1000,0.001
+Asian Art,Germany,1,1000,0.001
+Asian Art,India,10,1000,0.01
+Asian Art,"India (Andhra Pradesh, Goli)",1,1000,0.001
+Asian Art,"India (Basohli, Jammu)",1,1000,0.001
+Asian Art,India (Bengal),1,1000,0.001
+Asian Art,India (Bengal) or Bangladesh,2,1000,0.002
+Asian Art,India (Bihar),1,1000,0.001
+Asian Art,India (Gujarat),7,1000,0.007
+Asian Art,"India (Gujarat, Akota)",1,1000,0.001
+Asian Art,"India (Jammu & Kashmir, ancient kingdom of Kashmir)",2,1000,0.002
+Asian Art,"India (Jammu and Kashmir, ancient kingdom of Kashmir)",1,1000,0.001
+Asian Art,India (Maharasthra),1,1000,0.001
+Asian Art,India (Mughal),1,1000,0.001
+Asian Art,India (Pahari Hills),1,1000,0.001
+Asian Art,"India (Pahari Hills, Guler)",1,1000,0.001
+Asian Art,"India (Rajasthan, Amber)",2,1000,0.002
+Asian Art,"India (Rajasthan, Jaipur)",1,1000,0.001
+Asian Art,"India (Rajasthan, Kota or Bundi)",1,1000,0.001
+Asian Art,"India (Rajasthan, Kotah)",1,1000,0.001
+Asian Art,"India (South India, Madras?)",1,1000,0.001
+Asian Art,India (Uttar Pradesh or Madhya Pradesh),1,1000,0.001
+Asian Art,"India, (Gujarat, Jaunpur)",1,1000,0.001
+Asian Art,"India, Karla-Lonavala, Maharashtra",1,1000,0.001
+Asian Art,"India, Karla–Lonavala, Maharashtra",2,1000,0.002
+Asian Art,"India, Mumbai, Maharashtra",1,1000,0.001
+Asian Art,"India, Udaipur, Mewar, Rajasthan",1,1000,0.001
+Asian Art,Indonesia,5,1000,0.005
+Asian Art,Indonesia (Bali),1,1000,0.001
+Asian Art,Indonesia (Central Java),2,1000,0.002
+Asian Art,Indonesia (Java),25,1000,0.025
+Asian Art,"Indonesia (Java, Lumajang, Pasiran)",1,1000,0.001
+Asian Art,"Indonesia (Java, Majapahit?)",1,1000,0.001
+Asian Art,"Indonesia (Java, Ngandjuk)",1,1000,0.001
+Asian Art,Japan,452,1000,0.452
+Asian Art,Japan (Ryūkyū Islands),2,1000,0.002
+Asian Art,"Japan, Imbe",1,1000,0.001
+Asian Art,Japanese,1,1000,0.001
+Asian Art,Kashmir or western Tibet,1,1000,0.001
+Asian Art,Korea,16,1000,0.016
+Asian Art,Mexico,1,1000,0.001
+Asian Art,"Myanmar (Burma), peninsular region",1,1000,0.001
+Asian Art,Nepal,3,1000,0.003
+Asian Art,Nepal (Kathmandu Valley),2,1000,0.002
+Asian Art,"Nepal, Kathmandu",1,1000,0.001
+Asian Art,North America,1,1000,0.001
+Asian Art,"North America (Alaska, Cape Prince of Wales)",1,1000,0.001
+Asian Art,"North America (Alaska, Jade Mountain)",1,1000,0.001
+Asian Art,"North America (Alaska, Kotzebue Sound)",1,1000,0.001
+Asian Art,North China,4,1000,0.004
+Asian Art,Northeast Thailand,1,1000,0.001
+Asian Art,Northwest China,1,1000,0.001
+Asian Art,Pakistan,3,1000,0.003
+Asian Art,Pakistan (ancient region of Gandhara),3,1000,0.003
+Asian Art,Philippines,2,1000,0.002
+Asian Art,Probably Korea,1,1000,0.001
+Asian Art,Russia,1,1000,0.001
+Asian Art,Russia (Siberia),1,1000,0.001
+Asian Art,"South India, Tirupati, Andhra Pradesh",1,1000,0.001
+Asian Art,Southeast India (for Sri Lankan market),1,1000,0.001
+Asian Art,Southern Siberia,1,1000,0.001
+Asian Art,Sri Lanka,1,1000,0.001
+Asian Art,Switzerland,2,1000,0.002
+Asian Art,Thailand,8,1000,0.008
+Asian Art,Thailand (Ban Chiang),1,1000,0.001
+Asian Art,Thailand (Si Satchanalai),1,1000,0.001
+Asian Art,Tibet,6,1000,0.006
+Asian Art,Tibet(?),1,1000,0.001
+Asian Art,Vietnam,2,1000,0.002
+Asian Art,Vietnam (Champa),1,1000,0.001
+Asian Art,Vietnam (North),2,1000,0.002
+Asian Art,Vietnam (North) or Indonesia (Sumatra),1,1000,0.001
+Asian Art,"Vietnam, Hong River region",1,1000,0.001
+Asian Art,"West Bengal, Calcutta",1,1000,0.001
+Asian Art,"Western India, Rajasthan, Kota",2,1000,0.002
+Greek and Roman Art,Aegean,8,960,0.008333333333333333
+Greek and Roman Art,Cretan,1,960,0.0010416666666666667
+Greek and Roman Art,Cycladic,1,960,0.0010416666666666667
+Greek and Roman Art,Cypriot,72,960,0.075
+Greek and Roman Art,Cypriot ?,1,960,0.0010416666666666667
+Greek and Roman Art,Dimini culture,1,960,0.0010416666666666667
+Greek and Roman Art,East Greek,9,960,0.009375
+Greek and Roman Art,"East Greek, Clazomenian",1,960,0.0010416666666666667
+Greek and Roman Art,"East Greek, Rhodian",1,960,0.0010416666666666667
+Greek and Roman Art,"East Greek/Sardis, Lydian",10,960,0.010416666666666666
+Greek and Roman Art,Egyptian,6,960,0.00625
+Greek and Roman Art,Egyptian or Levantine,1,960,0.0010416666666666667
+Greek and Roman Art,"Egyptian, Greek or Roman",1,960,0.0010416666666666667
+Greek and Roman Art,Etruscan,40,960,0.041666666666666664
+Greek and Roman Art,Greek,45,960,0.046875
+Greek and Roman Art,Greek or Cypriot,2,960,0.0020833333333333333
+Greek and Roman Art,Greek or Etruscan,1,960,0.0010416666666666667
+Greek and Roman Art,Greek or Roman,5,960,0.005208333333333333
+Greek and Roman Art,"Greek, Arcadian",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Argive",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Asia Minor",2,960,0.0020833333333333333
+Greek and Roman Art,"Greek, Attic",493,960,0.5135416666666667
+Greek and Roman Art,"Greek, Boeotian",5,960,0.005208333333333333
+Greek and Roman Art,"Greek, Chalcidian",2,960,0.0020833333333333333
+Greek and Roman Art,"Greek, Corinthian",6,960,0.00625
+Greek and Roman Art,"Greek, Cretan",2,960,0.0020833333333333333
+Greek and Roman Art,"Greek, Eastern Mediterranean",5,960,0.005208333333333333
+Greek and Roman Art,"Greek, Eastern Mediterranean or Italian",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Egypt, Alexandria-Hadra",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Ionian",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Laconian",8,960,0.008333333333333333
+Greek and Roman Art,"Greek, Ptolemaic",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Ptolemaic, Cretan",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Sicilian, Centuripe",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, South Italian, Apulian",11,960,0.011458333333333333
+Greek and Roman Art,"Greek, South Italian, Apulian, Canosan",2,960,0.0020833333333333333
+Greek and Roman Art,"Greek, South Italian, Apulian, Gnathian",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, South Italian, Campanian",2,960,0.0020833333333333333
+Greek and Roman Art,"Greek, South Italian, Campanian, Teano",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, South Italian, Tarentine",6,960,0.00625
+Greek and Roman Art,"Greek, South Italian?",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Syria-Palestine or Egypt",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, probably Asia Minor",1,960,0.0010416666666666667
+Greek and Roman Art,"Helladic, Mycenaean",1,960,0.0010416666666666667
+Greek and Roman Art,Italic,3,960,0.003125
+Greek and Roman Art,"Italic, Etruria",1,960,0.0010416666666666667
+Greek and Roman Art,"Italic, Samnite",1,960,0.0010416666666666667
+Greek and Roman Art,"Italic-Native, South Italian (Daunian)",3,960,0.003125
+Greek and Roman Art,Late Villanovan,1,960,0.0010416666666666667
+Greek and Roman Art,Lydian,3,960,0.003125
+Greek and Roman Art,Minoan,16,960,0.016666666666666666
+Greek and Roman Art,"Minoan, Aegeo-Cypriot",1,960,0.0010416666666666667
+Greek and Roman Art,"Minoan, Crete",3,960,0.003125
+Greek and Roman Art,Neolithic,1,960,0.0010416666666666667
+Greek and Roman Art,"Neolithic, Nemea",1,960,0.0010416666666666667
+Greek and Roman Art,"Neolithic, Thessaly",1,960,0.0010416666666666667
+Greek and Roman Art,Phoenician,2,960,0.0020833333333333333
+Greek and Roman Art,Possibly Etruscan,1,960,0.0010416666666666667
+Greek and Roman Art,Post-Classical,3,960,0.003125
+Greek and Roman Art,Rhodian,1,960,0.0010416666666666667
+Greek and Roman Art,Roman,145,960,0.15104166666666666
+Greek and Roman Art,"Roman, Cypriot",3,960,0.003125
+Greek and Roman Art,"Roman, Gaul",2,960,0.0020833333333333333
+Greek and Roman Art,"Roman, Pompeian",1,960,0.0010416666666666667
+Greek and Roman Art,South Italian,1,960,0.0010416666666666667
+Greek and Roman Art,Unknown fabric,2,960,0.0020833333333333333

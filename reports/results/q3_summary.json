@@ -1,0 +1,9 @@
+{
+  "sample_records": 3000,
+  "date_eligible_records": 2990,
+  "documented_culture_records": 1960,
+  "qualifying_century_groups": 16,
+  "min_documented": 20,
+  "min_coverage": 0.8,
+  "scope": "Documented catalog culture labels, not artist nationality, countries, or population diversity."
+}

@@ -8,6 +8,7 @@ import streamlit as st
 
 from process_data import temporal_summary
 from analyze_media import medium_composition
+from analyze_cultures import culture_summary
 
 ROOT = Path(__file__).resolve().parent
 LOCAL_DATA = ROOT / 'data/processed_3000/objects_clean.csv'
@@ -82,6 +83,29 @@ def main():
         st.dataframe(details, hide_index=True)
         if not large_groups_only:
             st.warning('Small century groups are included; large percentages may reflect only one or a few objects.')
+
+    st.subheader('Documented culture labels (Q3)')
+    st.caption('This view uses the same date and department filters. Culture, country, and artist nationality are distinct fields. Indices describe recorded labels; differing catalog vocabularies limit cross-department comparisons.')
+    culture_coverage, culture_labels = culture_summary(filtered)
+    st.dataframe(culture_coverage[['department', 'records', 'documented', 'coverage', 'distinct_labels',
+                                   'shannon_nats', 'gini_simpson', 'effective_labels']], hide_index=True)
+    if culture_labels.empty:
+        st.info('No culture labels are documented in these records. Diversity is undefined, not zero; artist nationality is not substituted.')
+    else:
+        for department, group in culture_labels.groupby('department'):
+            st.write(f'{department}: most frequent documented labels')
+            top = group.sort_values(['count', 'culture_label'], ascending=[False, True]).head(8)
+            st.bar_chart(top.set_index('culture_label')['share_documented'] * 100)
+        culture_centuries, _ = culture_summary(filtered, by_century=True)
+        qualified = culture_centuries.loc[culture_centuries['sufficient_n']]
+        if qualified.empty:
+            st.info('No culture-century groups meet documented n >= 20 and coverage >= 80%. All groups remain in the coverage table.')
+        else:
+            st.write('Qualified century-level diversity (documented n >= 20; coverage >= 80%)')
+            st.dataframe(qualified[['department', 'century', 'records', 'documented', 'coverage',
+                                    'shannon_nats', 'gini_simpson']], hide_index=True)
+        with st.expander('All century groups, including missing and sparse labels'):
+            st.dataframe(culture_centuries, hide_index=True)
 
     st.subheader('Example object metadata')
     st.caption('Up to five matching objects, sorted by objectID; these are examples, not a representative subsample.')

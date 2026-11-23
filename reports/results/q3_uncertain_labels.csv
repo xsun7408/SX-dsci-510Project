@@ -1,0 +1,25 @@
+department,culture_label,count,documented,share_documented
+Asian Art,Bangladesh or India (Bengal),1,1000,0.001
+Asian Art,China (?),1,1000,0.001
+Asian Art,China or Japan,4,1000,0.004
+Asian Art,China or Tibet,1,1000,0.001
+Asian Art,India (Bengal) or Bangladesh,2,1000,0.002
+Asian Art,"India (Rajasthan, Kota or Bundi)",1,1000,0.001
+Asian Art,"India (South India, Madras?)",1,1000,0.001
+Asian Art,India (Uttar Pradesh or Madhya Pradesh),1,1000,0.001
+Asian Art,"Indonesia (Java, Majapahit?)",1,1000,0.001
+Asian Art,Kashmir or western Tibet,1,1000,0.001
+Asian Art,Probably Korea,1,1000,0.001
+Asian Art,Tibet(?),1,1000,0.001
+Asian Art,Vietnam (North) or Indonesia (Sumatra),1,1000,0.001
+Greek and Roman Art,Cypriot ?,1,960,0.0010416666666666667
+Greek and Roman Art,Egyptian or Levantine,1,960,0.0010416666666666667
+Greek and Roman Art,"Egyptian, Greek or Roman",1,960,0.0010416666666666667
+Greek and Roman Art,Greek or Cypriot,2,960,0.0020833333333333333
+Greek and Roman Art,Greek or Etruscan,1,960,0.0010416666666666667
+Greek and Roman Art,Greek or Roman,5,960,0.005208333333333333
+Greek and Roman Art,"Greek, Eastern Mediterranean or Italian",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, South Italian?",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, Syria-Palestine or Egypt",1,960,0.0010416666666666667
+Greek and Roman Art,"Greek, probably Asia Minor",1,960,0.0010416666666666667
+Greek and Roman Art,Possibly Etruscan,1,960,0.0010416666666666667

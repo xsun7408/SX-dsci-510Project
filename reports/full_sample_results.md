@@ -5,8 +5,8 @@
 - Acquired 3,000 unique selected records: 1,000 per department, with no missing selected IDs.
 - Used the real API, seed 510, a fixed ID manifest, and an approximately one-second request interval.
 - Re-running acquisition made no network calls and did not change the cache. The shared cache contained 3,206 records; this analysis selects only the 3,000 manifest IDs.
-- Fifteen tests passed: acquisition, date processing, app behavior, and medium-analysis rules. The live demonstration successfully called the department, candidate-ID, and object-detail endpoints. The running Streamlit app passed real-data filtering checks and an HTTP startup check.
-- A minimal Streamlit application now supports department/year filters, date summaries, exploratory medium composition, and object metadata. Q2 descriptive analysis is available in the [Q2 report](q2_results.md); Q3 remains unfinished. This is a project checkpoint, not the final course report.
+- Twenty-two tests passed: acquisition, date processing, app behavior, medium-analysis rules, and culture-diversity calculations. The live demonstration successfully called the department, candidate-ID, and object-detail endpoints. The running Streamlit app passed real-data filtering checks and an HTTP startup check.
+- A minimal Streamlit application now supports department/year filters, date summaries, exploratory medium composition, and object metadata. Q2 descriptive analysis is available in the [Q2 report](q2_results.md); The revised [Q3 report](q3_results.md) is also available. This is a project checkpoint, not the final course report.
 
 ## Field missing percentages
 
@@ -50,7 +50,7 @@ Asian Art's IQR falls from 300 to 200 years, while European Paintings remains at
 
 - The initial categories left 325 records as `other` and 10 as `unknown`. Reviewed rule version 2 leaves 8 as `other` and 10 as `unknown` (18 total, 0.6%). Original medium text is retained, and broader coverage does not establish perfect classification.
 - [Q2](q2_results.md) now compares department-century proportions, flags small groups, and checks wide-date sensitivity. Equal department sample sizes cannot establish collection-wide historical trends.
-- Q3 remains unfinished: `country` is entirely missing, and `artistNationality` coverage differs sharply across departments. A culture-label analysis could focus on documented Asian Art and Greek and Roman Art records, reporting coverage and sample size.
+- [Revised Q3](q3_results.md) describes documented culture labels: 100% coverage in Asian Art, 96% in Greek and Roman Art, and none in European Paintings. Undefined culture diversity is not replaced with artist nationality or interpreted as zero.
 - Departments include different object types, including frames. Metadata has no `isPublicDomain` filter; image use requires separate checking. No images were acquired.
 - Date and medium rules are initial, documented choices. Re-run the analysis after any substantive rule revision.
 

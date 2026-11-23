@@ -59,3 +59,20 @@ python prepare_app_data.py
 Review the updated aggregates, figure, and compact snapshot before committing.
 Raw acquisition remains a separate research step; do not move it into the app's
 startup path.
+
+## Dependency installation troubleshooting
+
+The previous deployment showed an installation failure, but its full original
+log and Python version were not supplied. Do not diagnose the final `rich`
+installation messages as the root cause; inspect the first failing package line.
+The original NumPy 2.5.4 pin is incompatible with Python 3.11. The project now
+uses NumPy 2.2.6 to remove that unnecessary minimum-version restriction.
+Python 3.12 is still the recommended target for the complete dependency stack;
+newer runtimes can lack binary wheels for other pinned dependencies.
+
+After the fix reaches GitHub, use the app dashboard to rebuild/reboot the app.
+If a different Python runtime is selected, use the platform's supported
+redeployment flow to choose 3.12. If installation still fails, copy the first
+`ERROR` / `No matching distribution` block and the Python version from the log.
+The owner must confirm the actual hosted URL starts; a local smoke test or a
+push to GitHub does not establish online availability.

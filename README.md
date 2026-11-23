@@ -12,7 +12,7 @@ for an individual DSCI 510 project.
 - Completed initial pandas cleaning and Q1 NumPy summaries and visualization.
   Current date rules leave **2,990 records** eligible for Q1.
 - Added a minimal Streamlit explorer with department/year filters, data-driven
-  charts, and object metadata. Q2 now has a descriptive report and date-sensitivity check; Q3 remains unfinished.
+  charts, and object metadata. Q1, Q2, and revised Q3 now have descriptive results and documented limitations.
 
 Read the [results and limitations](reports/full_sample_results.md) and
 [analysis methods](reports/analysis_method.md). This checkpoint is not the final
@@ -107,6 +107,7 @@ website, follow the [Community Cloud deployment steps](reports/deployment.md). S
 | `demo_snapshot.py` | Cached DataFrame examples and NumPy statistics for presentation |
 | `app.py` | Streamlit department/year filters, charts, and example metadata |
 | `analyze_media.py` | Q2 proportions, sample-size flags, sensitivity, rule audit, and figure |
+| `analyze_cultures.py` | Revised Q3 coverage, vectorized diversity indices, sensitivities, and figure |
 | `prepare_app_data.py` | Export the compact processed hosting snapshot |
 | `app_data/` | Compact processed fields for running the app without the raw cache |
 | `tests/` | Mocked acquisition tests and numerical/date boundary tests |
@@ -142,7 +143,7 @@ retain the original text for review.
 Equal department targets cannot establish full-collection proportions. Departments
 contain different object types, including frames. Metadata is sampled without an
 `isPublicDomain` filter; image permissions require separate checking. No images
-were acquired for this checkpoint. Fifteen tests passed, including app and medium-analysis tests; synthetic fixtures are
+were acquired for this checkpoint. Twenty-two tests passed, including app, medium-analysis, and diversity tests; synthetic fixtures are
 used only for tests, not research conclusions.
 
 ## Source
@@ -163,5 +164,21 @@ observed department-centuries; the main figure uses the 23 groups with n >= 20.
 Medium rule version 2 reduces other/unknown records from 335 to 18, while retaining
 the original medium text. Classification remains a coarse first-match convention.
 The date-sensitivity report explicitly identifies groups that disappear or become
-too small after removing wide date intervals. Q3 and the final course report remain
-to be completed.
+too small after removing wide date intervals. The final course report and actual presentation remain to be completed.
+
+## Q3 checkpoint
+
+Run `python analyze_cultures.py` using the committed compact snapshot. The
+[Q3 report](reports/q3_results.md) examines documented culture labels rather than
+substituting artist nationality or country. Department totals include all 3,000
+records: 1,960 have documented culture labels. Century comparisons use eligible
+dates and require at least 20 documented labels and 80% coverage; all groups remain
+in the CSV. Shannon entropy, Gini-Simpson, and effective label counts are computed
+with vectorized NumPy, with all-missing groups left undefined. Both wide-date
+and uncertain-attribution exclusions are checked. The app uses its current date
+filters, so its Q3 denominators can differ from whole-department report totals.
+
+See the [current requirement checklist](reports/project_status.md) and
+[deployment troubleshooting](reports/deployment.md). NumPy is pinned to 2.2.6
+for broader Python compatibility; Python 3.12 remains the recommended deployment
+runtime. A successful local installation does not prove the hosted app is online.

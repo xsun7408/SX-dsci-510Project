@@ -89,3 +89,22 @@ within-department/century shares through broadcasting. Other/unknown records sta
 in denominators. All observed groups are saved; the main chart uses n >= 20. The
 wide-date check records both percentage changes and loss of qualifying groups,
 so a vanished or newly sparse century is not silently omitted from limitations.
+
+## Revised Q3: documented culture labels
+
+Normalize whitespace and explicit missing labels without splitting compound
+labels or merging artist nationality/country into culture. Whole-department
+coverage uses all sampled records; century summaries use only eligible dates.
+NumPy normalizes count-matrix rows and computes Shannon entropy with natural
+logs, Gini-Simpson, and exp(H). Empty rows return NaN, whereas a genuinely
+single-label group has H=0 and effective labels=1. Zero probabilities do not
+evaluate log(0). No external diversity-metric helper is used.
+
+Main century comparisons require documented n >= 20 and culture coverage >= 80%.
+Both small groups and all-missing groups remain in the exports. Sensitivity
+checks separately exclude wide date intervals and explicitly uncertain culture
+attributions. Commas alone are not uncertainty: `Greek, Attic` stays intact;
+`Greek or Roman` is a single main-analysis label and is omitted in the uncertainty
+check. Different vocabularies and sample sizes limit comparison of index values
+across departments and centuries; no societal or population diversity inference
+is claimed.
