@@ -9,6 +9,7 @@ import streamlit as st
 from process_data import temporal_summary
 from analyze_media import medium_composition
 from analyze_cultures import culture_summary
+from interactive_demo import show_live_demo
 
 ROOT = Path(__file__).resolve().parent
 LOCAL_DATA = ROOT / 'data/processed_3000/objects_clean.csv'
@@ -22,33 +23,7 @@ def load_data(path, modified_ns):
     return pd.read_csv(path, low_memory=False)
 
 
-def main():
-    st.set_page_config(page_title='Met Collection Explorer', layout='wide')
-    st.title('Met Collection Explorer')
-    st.write('Explore recorded dates and materials in a three-department metadata sample.')
-    st.caption('Years are recorded interval starts: negative = BCE, positive = CE. Equal department targets do not describe whole-collection proportions.')
-    if not DATA_PATH.exists():
-        st.error('Processed sample not found. Follow the README to acquire and process the sample before opening the explorer.')
-        st.stop()
-    df = load_data(str(DATA_PATH), DATA_PATH.stat().st_mtime_ns)
-    departments = sorted(df['department'].dropna().unique())
-    selected = st.sidebar.selectbox('Department', ['All departments', *departments])
-    base = df if selected == 'All departments' else df.loc[df['department'].eq(selected)]
-    dated = base.loc[base['date_begin_usable'].eq(True)].copy()
-    if dated.empty:
-        st.info('No records with eligible dates in this department.')
-        st.stop()
-    # Keep a common slider domain so department changes preserve the requested range.
-    all_dated = df.loc[df['date_begin_usable'].eq(True), 'begin_year']
-    minimum, maximum = int(all_dated.min()), int(all_dated.max())
-    bounds = st.sidebar.slider('Recorded begin-year range', minimum, maximum, (minimum, maximum))
-    filtered = dated.loc[dated['begin_year'].between(*bounds)].copy()
-    st.sidebar.caption('Records with zero, missing, or invalid date bounds are excluded from this view. Wide intervals remain included.')
-    st.caption(f'Date-eligible records in selected department(s): {len(dated):,} of {len(base):,}. All views below use the same department and year filters.')
-    st.metric('Matching records', f'{len(filtered):,}')
-    if filtered.empty:
-        st.info('No records match these filters. Widen the year range or choose another department.')
-        st.stop()
+def show_dates(filtered):
     years = filtered['begin_year'].to_numpy(dtype=float)
     q1, q3 = np.percentile(years, [25, 75])
     left, right = st.columns(2)
@@ -63,6 +38,9 @@ def main():
     st.subheader('Department summaries')
     st.dataframe(temporal_summary(filtered), hide_index=True)
 
+
+
+def show_media(filtered):
     st.subheader('Medium composition by recorded start century')
     st.caption('Ordered coarse categories; other/unknown remain in denominators. Observed centuries can have gaps; these sample proportions do not establish worldwide historical trends.')
     large_groups_only = st.checkbox('Limit medium comparisons to department-centuries with at least 20 records', value=True)
@@ -84,6 +62,9 @@ def main():
         if not large_groups_only:
             st.warning('Small century groups are included; large percentages may reflect only one or a few objects.')
 
+
+
+def show_cultures(filtered):
     st.subheader('Documented culture labels (Q3)')
     st.caption('This view uses the same date and department filters. Culture, country, and artist nationality are distinct fields. Indices describe recorded labels; differing catalog vocabularies limit cross-department comparisons.')
     culture_coverage, culture_labels = culture_summary(filtered)
@@ -107,12 +88,88 @@ def main():
         with st.expander('All century groups, including missing and sparse labels'):
             st.dataframe(culture_centuries, hide_index=True)
 
-    st.subheader('Example object metadata')
-    st.caption('Up to five matching objects, sorted by objectID; these are examples, not a representative subsample.')
+
+
+def show_objects(filtered):
+    st.subheader('Object browser')
+    st.caption('Search applies only to the object browser, not the Q1/Q2/Q3 analyses. Examples are not a representative random sample.')
+    query = st.text_input('Search titles or artists', key='object_search').strip()
+    matches = filtered
+    if query:
+        titles = filtered['title'].astype('string').str.contains(query, case=False, regex=False, na=False)
+        artists = filtered['artistDisplayName'].astype('string').str.contains(query, case=False, regex=False, na=False)
+        matches = filtered.loc[titles | artists]
+    if matches.empty:
+        st.info('No objects match this search within the current filters.')
+        return
+    matches = matches.sort_values('objectID')
     fields = ['objectID', 'title', 'department', 'objectDate', 'medium', 'culture', 'artistDisplayName']
-    examples = filtered.sort_values('objectID').head(5)
-    st.dataframe(examples[fields].fillna('Not recorded'), hide_index=True)
-    st.caption(f'Wide date intervals over 500 years among matching records: {int(filtered["date_wide_span"].sum()):,}. See the report for sensitivity analysis.')
+    st.dataframe(matches.head(5)[fields].fillna('Not recorded'), hide_index=True)
+    candidates = matches.head(100).set_index('objectID')
+    st.caption(f'{len(matches):,} matching objects. The selector offers the first 100 by ID; search to narrow the list.')
+    object_id = st.selectbox('Choose an object', candidates.index.tolist(),
+                             format_func=lambda value: f'{value} — {candidates.loc[value, "title"]}', key='object_choice')
+    detail = candidates.loc[object_id]
+    st.subheader(str(detail['title']))
+    st.json({'objectID': int(object_id), **{field: None if pd.isna(detail[field]) else str(detail[field]) for field in fields if field != 'objectID'}})
+    st.caption(f'Wide date intervals over 500 years among the analytic selection: {int(filtered["date_wide_span"].sum()):,}.')
+
+
+def set_filters(department, bounds):
+    st.session_state['department_filter'] = department
+    st.session_state['year_filter'] = bounds
+    st.session_state['medium_filter'] = 'All medium groups'
+
+
+def main():
+    st.set_page_config(page_title='Met Collection Explorer', layout='wide')
+    st.title('Met Collection Explorer')
+    st.write('Ask a question, change the filters, and inspect the evidence in a real museum sample.')
+    st.caption('Recorded begin years are date-range bounds: negative = BCE, positive = CE. The department sample targets are equal by design.')
+    if not DATA_PATH.exists():
+        st.error('Processed sample not found. Follow the README to acquire and process the sample before opening the explorer.')
+        st.stop()
+    df = load_data(str(DATA_PATH), DATA_PATH.stat().st_mtime_ns)
+    departments = sorted(df['department'].dropna().unique())
+    all_dated = df.loc[df['date_begin_usable'].eq(True), 'begin_year']
+    if all_dated.empty:
+        st.info('No records with eligible dates in this sample.')
+        st.stop()
+    minimum, maximum = int(all_dated.min()), int(all_dated.max())
+    st.sidebar.write('Quick demo selections')
+    st.sidebar.button('Reset: all departments', on_click=set_filters, args=('All departments', (minimum, maximum)))
+    for label, department in [('Painting media', 'European Paintings'), ('Asian culture labels', 'Asian Art')]:
+        if department in departments:
+            st.sidebar.button(label, on_click=set_filters, args=(department, (minimum, maximum)))
+    selected = st.sidebar.selectbox('Department', ['All departments', *departments], key='department_filter')
+    bounds = st.sidebar.slider('Recorded begin-year range', minimum, maximum, (minimum, maximum), key='year_filter')
+    medium = st.sidebar.selectbox('Medium group', ['All medium groups', *sorted(df['medium_category'].dropna().unique())], key='medium_filter')
+    base = df if selected == 'All departments' else df.loc[df['department'].eq(selected)]
+    dated = base.loc[base['date_begin_usable'].eq(True)].copy()
+    filtered = dated.loc[dated['begin_year'].between(*bounds)].copy()
+    if medium != 'All medium groups':
+        filtered = filtered.loc[filtered['medium_category'].eq(medium)].copy()
+    st.sidebar.caption('Explorer tabs follow these filters. Zero/invalid date bounds are excluded. The guided live demo uses the full saved sample, as labeled.')
+    st.metric('Matching records', f'{len(filtered):,}')
+    st.caption(f'Date-eligible records before year/medium filters: {len(dated):,} of {len(base):,}. Select a question tab or run the guided demo.')
+    if medium != 'All medium groups':
+        st.caption('Medium proportions are conditional on this medium filter. Reset to All medium groups for the full medium mix.')
+    if filtered.empty:
+        st.info('No records match these filters. Widen the year range, reset the medium, or choose another department.')
+        with st.expander('Run the guided demo using the full sample'):
+            show_live_demo(df)
+        return
+    dates, media, cultures, objects, demo = st.tabs(['Q1 · Dates', 'Q2 · Media', 'Q3 · Cultures', 'Object browser', 'Live demo'])
+    with dates:
+        show_dates(filtered)
+    with media:
+        show_media(filtered)
+    with cultures:
+        show_cultures(filtered)
+    with objects:
+        show_objects(filtered)
+    with demo:
+        show_live_demo(df)
 
 
 if __name__ == '__main__':

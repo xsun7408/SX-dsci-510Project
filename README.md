@@ -3,6 +3,9 @@
 Temporal and cultural analysis of Metropolitan Museum of Art collection metadata
 for an individual DSCI 510 project.
 
+Hosted app reported by the owner: https://xsun7408-sx-dsci-510project-app-kwdahk.streamlit.app/
+Use the new deployment URL rather than an older app's logs when checking runtime settings.
+
 ## Current checkpoint
 
 - Acquired **3,000 unique API records**: 1,000 each from European Paintings,
@@ -107,7 +110,8 @@ website, follow the [Community Cloud deployment steps](reports/deployment.md). S
 | `process_data.py` | Cleaning, century and medium features, Q1 statistics and figure |
 | `api_demo.py` | Small live acquisition demonstration |
 | `demo_snapshot.py` | Cached DataFrame examples and NumPy statistics for presentation |
-| `app.py` | Streamlit department/year filters, charts, and example metadata |
+| `app.py` | Question tabs, presets, department/year/medium filters, charts, and searchable objects |
+| `interactive_demo.py` | Audience prediction/reveal, bounded live API refresh, and culture calculator |
 | `analyze_media.py` | Q2 proportions, sample-size flags, sensitivity, rule audit, and figure |
 | `analyze_cultures.py` | Revised Q3 coverage, vectorized diversity indices, sensitivities, and figure |
 | `prepare_app_data.py` | Export the compact processed hosting snapshot |
@@ -145,7 +149,7 @@ retain the original text for review.
 Equal department targets cannot establish full-collection proportions. Departments
 contain different object types, including frames. Metadata is sampled without an
 `isPublicDomain` filter; image permissions require separate checking. No images
-were acquired for this checkpoint. Twenty-two tests passed, including app, medium-analysis, and diversity tests; synthetic fixtures are
+were acquired for this checkpoint. Twenty-seven tests passed, including app, medium-analysis, and diversity tests; synthetic fixtures are
 used only for tests, not research conclusions.
 
 ## Source
@@ -184,3 +188,13 @@ See the [current requirement checklist](reports/project_status.md) and
 [deployment troubleshooting](reports/deployment.md). NumPy is pinned to 2.2.6
 for broader Python compatibility; Python 3.12 remains the recommended deployment
 runtime. A successful local installation does not prove the hosted app is online.
+
+## Interactive presentation controls
+
+The application separates Q1/Q2/Q3, object browsing, and a guided live demo into
+tabs. Explorer presets and department/year/medium filters update the displayed
+selection. The guided demo explicitly uses the full saved sample: it can make
+one bounded fresh object request, reveal a computed department comparison after
+an audience prediction, and recalculate culture indices when uncertainty is
+excluded. Live failures clear previous success and never masquerade as cached
+success. See the [five-minute walkthrough](reports/demo_guide.md).

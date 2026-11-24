@@ -1,109 +1,107 @@
-# Five-minute demonstration guide
+# Five-minute interactive demonstration
 
-All three questions now have descriptive results. The app is implemented and
-locally tested; the hosted installation must still be confirmed. This guide is
-a rehearsal plan, not evidence that the actual class demo has occurred.
+The audience can predict a result, reveal the calculation, inspect a real object,
+and change a culture-label assumption. The saved 3,000-object snapshot supports
+the whole analysis without an Internet connection. One optional live API call
+has an explicit success/failure state and never silently falls back to cache.
 
-## Prepare before class
+## Prepare
 
-1. Test the hosted URL on the presentation machine. If hosting remains unavailable,
-   run `python -m streamlit run app.py` locally using the committed compact snapshot.
-2. For the live/cached terminal demonstrations, install requirements and retain the
-   completed raw sample. `python api_demo.py --department 11` needs API connectivity;
-   `python demo_snapshot.py` needs the research cache. Do not reacquire 3,000 objects
-   during the presentation.
-3. Open the app, `process_data.py` at `temporal_summary`, `analyze_cultures.py` at
-   `diversity_from_counts`, and the [result overview](full_sample_results.md).
-4. Keep [Q2](q2_results.md) and [Q3](q3_results.md) available for follow-up questions.
-5. Rehearse once without network access: saved evidence must be explicitly labeled
-   as previously acquired data, never presented as a successful live API call.
+- Open the correct hosted deployment URL, or start `python -m streamlit run app.py`
+  locally. Confirm the matching count is 2,990 with all explorer filters reset.
+- Open **Live demo**. Its steps use the full saved sample independently of the
+  explorer sidebar filters; this scope is labeled in the interface.
+- Keep the source files and Q1/Q2/Q3 reports open for questions. No bulk acquisition
+  is needed during the presentation.
+- Rehearse the failure case: if the live request fails, say so and expand the
+  clearly labeled saved processed metadata. It is not a fresh API response.
 
 ## 0:00–0:20 — Question and sample
 
-> I use The Met's public API to compare recorded dates, medium composition, and
-> documented culture labels. The fixed sample has 1,000 objects from each of three
-> departments. Equal targets are my sampling design, not the museum's proportions.
+> I use The Met's API to compare recorded dates, medium composition, and documented
+> culture labels. I fixed 1,000 object IDs from each of three departments: 3,000
+> records in total. Equal targets are my sampling design, not the museum's proportions.
 
-## 0:20–1:00 — Live API acquisition
+## 0:20–1:10 — Click a fresh API request
 
-```bash
-python api_demo.py --department 11
-```
+In **Live demo → Live API**, choose a department and click **Fetch this object from
+the API now**. The button refreshes exactly one sampled object-detail endpoint,
+using a bounded timeout and no response cache. Expand the received JSON and show
+the real response organized as a DataFrame.
 
-Point to the department, candidate IDs, and one actual metadata response. Explain
-that Python requests the IDs before object details, with timeouts and failure
-handling. The full acquisition saves successful responses in JSON Lines and skips
-already cached IDs on restart. A department can include frames or other object
-types, so avoid calling every returned object a painting.
+Explain that the research script used `get_departments`, `get_object_ids`, and
+`fetch_object` to acquire the complete sample and cache records as JSON Lines.
+The classroom button refreshes one existing sampled ID and does not replace the
+research sample. If it fails, show the saved-evidence expander and explain that
+all analysis remains available offline. Do not wait through repeated retries.
 
-## 1:00–1:40 — pandas processing and analysis
+## 1:10–2:10 — Audience prediction and NumPy reveal
 
-```bash
-python demo_snapshot.py
-```
+Switch to **Predict and compare**. Ask:
 
-Show the DataFrame shape, raw-to-derived fields, and department group counts.
-Explain blank-to-missing normalization, date flags, century, medium categories,
-and the difference between 3,000 sampled records and 2,990 eligible date records.
-Point to groupby/crosstab and explain why every question has its own denominator.
+> Which sampled department do you expect to have the earliest median recorded
+> begin year?
 
-## 1:40–2:20 — Meaningful NumPy
+Select the audience's prediction and click **Reveal the department comparison**.
+The answer is computed from the saved data, not hard-coded. Explain the groupby
+summary and median/quartiles; open **Show the NumPy calculation** briefly.
+For the committed sample, Greek and Roman Art has the earliest median, 530 BCE.
+These are date-interval lower bounds, not exact creation dates.
 
-Explain either the Q1 median/quartiles or the Q3 diversity calculation in detail;
-keep the other ready for questions. Do not try to read both full functions aloud.
+## 2:10–3:10 — Change the medium view
 
-> NumPy computes medians and percentiles to compare the center and spread of the
-> recorded dates. For Q3, it converts category counts to probabilities, then uses
-> vectorized log, multiplication, and reductions for Shannon entropy. Missing labels
-> are excluded with coverage reported; an empty group is undefined, not zero diversity.
+Click the sidebar **Painting media** preset and select **Q2 · Media**. Point to
+century sample sizes and explain the within-department/century denominator.
+The full sample has 24/25 tempera records in century 14 CE and 303/350 oil records
+in century 19 CE. This describes sampled catalog composition, not a causal history
+of worldwide artistic practice.
 
-The Shannon formula is `-sum(p * ln(p))`; the implementation avoids log(0). These
-are actual numerical calculations, not just conversion of a list to an array.
+Optionally select `oil_painting` in the sidebar and switch to **Q1 · Dates** to
+inspect that subset's date distribution. Reset **Medium group** to **All medium
+groups** before interpreting full medium composition; otherwise shares are
+conditional on the medium selection.
 
-## 2:20–4:20 — App and three findings
+## 3:10–4:10 — Interactive culture calculator
 
-Use around 40 seconds per question. The app's values change with filters, so quote
-what is currently visible rather than reading whole-sample numbers into a subset.
+Return to **Live demo → Culture calculator**. Select European Paintings to show
+that no culture labels are documented: diversity is undefined, not zero. Then
+select Asian Art and toggle the uncertain-attribution exclusion. The documented
+count and NumPy indices update from actual labels.
 
-- **Q1:** Select European Paintings with the full year range: 1,000 records and
-  median begin year 1760. Point to the distribution. The full report compares
-  this with Asian Art (1700) and Greek and Roman Art (530 BCE). Date bounds are
-  not exact creation dates.
-- **Q2:** Show European Paintings' century composition. In the full sample,
-  tempera accounts for 24/25 records in recorded century 14 CE; oil painting
-  accounts for 303/350 in 19 CE. These are catalog sample composition differences,
-  not a causal history of all artistic practice. Sparse groups are flagged.
-- **Q3:** Show that European Paintings has no documented culture labels and hence
-  undefined indices. Switch to Asian Art to show its documented-label bars and
-  coverage-aware entropy. The whole-department report has Japan/China totaling
-  81.5% of 1,000 records; the app uses date-filtered records and can differ. Do not
-  substitute artist nationality or rank historical societies by the indices.
+Open **Show the probability and NumPy steps** to explain normalization,
+`np.log`, row sums, Shannon entropy, and Gini-Simpson. These calculations do not
+use an external diversity helper. Different catalog vocabularies prevent a direct
+ranking of historical societies by these indices.
 
-Briefly move the year slider once to demonstrate that statistics, charts, and
-object metadata come from the same filtered data. Do not spend time customizing
-colors or browsing many object rows.
+The calculator uses all sampled objects in its chosen department. The separate
+**Q3 · Cultures** explorer tab follows date/medium filters and can have different
+denominators. State which view is being shown.
 
-## 4:20–5:00 — Limitations and interpretation
+## 4:10–4:40 — Let the audience pick an object
 
-> The sample is stratified by department. Catalog fields have uneven coverage,
-> date intervals can be imprecise, and keyword medium groups are coarse. I checked
-> sensitivity to wide date ranges and uncertain culture labels. The results describe
-> these sampled metadata records, not worldwide art history or societal diversity.
+Use **Object browser**. Search a word from a visible title or artist, choose one
+matching object, and inspect its metadata. The selector offers the first 100
+matching IDs; search to narrow it. Examples are not claimed to be a representative
+random subsample. Searches affect only the object browser, not Q1/Q2/Q3 statistics.
 
-PyTorch is optional and not used. Final report assembly and the actual presentation
-remain separate deliverables.
+## 4:40–5:00 — Limitations
 
-## Questions to rehearse
+> Coverage varies by field, dates can be imprecise, and medium classes are coarse
+> rules. I checked sensitivity to wide dates and uncertain labels. These are
+> descriptive sample findings, not population claims. PyTorch is optional and not
+> needed for these questions.
 
-- Why equal samples? A documented department comparison, not a population proportion.
-- How reproducible? Seed plus the actual committed ID list; cached records preserve
-  this acquisition, while future API metadata can change.
-- Why exclude year-zero bounds? Conventional BCE/CE centuries do not have an ordinary
-  year zero; ambiguous API boundaries are separately reviewed.
-- Why two kinds of Q3 denominators? Department coverage includes all sampled objects;
-  a century analysis requires usable dates. Missing cultures are not counted as a label.
-- What does H=0 mean? One observed category. All labels missing is undefined instead.
-- Can indices compare societies? No: exact labels differ in granularity, sample size,
-  and catalog practice. They summarize the documented sample vocabulary.
-- What if the API fails live? Explain the error, show the code and saved evidence,
-  label it honestly, and continue with cached analysis rather than bulk downloading.
+## Course requirement mapping
+
+| Requirement | Demonstration evidence |
+|---|---|
+| Programmatic API acquisition | Fresh object-detail request with visible success/failure; three-stage research client available |
+| DataFrame and processing | Live response DataFrame, processed metadata, date/medium/culture features and source functions |
+| Meaningful pandas | Department grouping, medium crosstabs, filtered object rows, coverage tables |
+| Meaningful NumPy | Computed medians/IQR, row-normalized proportions, Shannon/Gini-Simpson calculator |
+| Questions/results | Prediction reveal and Q1/Q2/Q3 views with explicit populations |
+| Interface/visualization | Tabs, presets, department/year/medium filters, charts, search and object selection |
+
+If hosting is unavailable, the committed compact snapshot runs locally. Saved
+API evidence must be labeled honestly. The formal final report and actual class
+presentation are still separate deliverables.

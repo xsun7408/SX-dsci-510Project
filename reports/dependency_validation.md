@@ -12,7 +12,7 @@ project's numerical methods require the newer version.
 
 - Created a fresh Python 3.12 environment and installed `requirements.txt` with
   normal package integrity and TLS verification enabled.
-- All 22 automated tests passed in that fresh environment.
+- All 27 automated tests passed in that fresh environment.
 - `pip check` reported no broken requirements.
 - A Python 3.11 binary-only dependency-resolution dry run succeeded. This is a
   resolver check, not a claim that the full application was run on Python 3.11.

@@ -5,7 +5,7 @@
 - Acquired 3,000 unique selected records: 1,000 per department, with no missing selected IDs.
 - Used the real API, seed 510, a fixed ID manifest, and an approximately one-second request interval.
 - Re-running acquisition made no network calls and did not change the cache. The shared cache contained 3,206 records; this analysis selects only the 3,000 manifest IDs.
-- Twenty-two tests passed: acquisition, date processing, app behavior, medium-analysis rules, and culture-diversity calculations. The live demonstration successfully called the department, candidate-ID, and object-detail endpoints. The running Streamlit app passed real-data filtering checks and an HTTP startup check.
+- Twenty-seven tests passed: acquisition, date processing, app behavior, medium-analysis rules, and culture-diversity calculations. The live demonstration successfully called the department, candidate-ID, and object-detail endpoints. The running Streamlit app passed real-data filtering checks and an HTTP startup check.
 - A minimal Streamlit application now supports department/year filters, date summaries, exploratory medium composition, and object metadata. Q2 descriptive analysis is available in the [Q2 report](q2_results.md); The revised [Q3 report](q3_results.md) is also available. This is a project checkpoint, not the final course report.
 
 ## Field missing percentages

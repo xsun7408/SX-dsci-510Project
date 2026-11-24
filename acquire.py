@@ -19,10 +19,11 @@ DEFAULT_DEPARTMENTS = [11, 6, 13]  # European Paintings, Asian Art, Greek and Ro
 # Centralize connection reuse, request pacing, and bounded retries.
 class MetClient:
 
-    def __init__(self, interval=1.0, attempts=4):
+    def __init__(self, interval=1.0, attempts=4, timeout=(10, 30)):
 
         self.session = requests.Session()
         self.session.headers['User-Agent'] = 'DSCI510-MetResearch/0.1 (educational metadata project)'
+        self.timeout = timeout
         self.interval = interval
         self.attempts = attempts
         self.last_request = 0.0
@@ -36,7 +37,7 @@ class MetClient:
             self.last_request = time.monotonic()
             try:
 
-                response = self.session.get(BASE_URL + path, params=params, timeout=(10, 30))
+                response = self.session.get(BASE_URL + path, params=params, timeout=self.timeout)
                 response.raise_for_status()
 
                 result = response.json()

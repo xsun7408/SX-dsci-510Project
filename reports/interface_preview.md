@@ -1,41 +1,57 @@
 # Current interactive interface
 
-These are real browser screenshots of the locally running Streamlit app, not
-mockups. They demonstrate the current interface; they do not establish that the
-hosted Community Cloud deployment is healthy.
+These are real screenshots from a local Chromium browser, not mockups. The owner
+reported a new hosted deployment at:
+https://xsun7408-sx-dsci-510project-app-kwdahk.streamlit.app/
 
-## Overview and Q1
+That hosted address is distinct from earlier failed deployments. These local
+browser captures do not independently establish the hosted service's current state.
 
-The sidebar selects departments and a recorded begin-year range. The page shows
-matching record counts, medians, IQRs, a date histogram, and department summaries.
-The default view pools the equal-target sample. Choose a department for an
-individual departmental comparison.
+## Overview and question tabs
 
-![Overview and date distribution](figures/app_overview.png)
+Use the sidebar department/year/medium filters or quick presets. Q1, Q2, Q3,
+object browsing, and the guided live demo have separate tabs. The default 2,990
+matching rows are the date-eligible part of the fixed 3,000-record sample.
 
-## Q2 and Q3
+![Tabbed overview](figures/app_overview.png)
 
-Below the overview, medium composition is shown by observed century. The default
-comparison requires at least 20 records per department-century. Q3 shows culture
-coverage, exact-label concentration, and NumPy diversity summaries. A group with
-all culture values missing has undefined diversity, not a zero value.
+## Predict, then reveal
 
-The screenshot below selects Asian Art. It uses 991 date-eligible records, so
-its denominator differs from the whole-department Q3 report's 1,000 records.
+In **Live demo → Predict and compare**, ask the audience for a prediction. The
+reveal button computes the department medians from the full saved sample, shows
+the answer and table, and offers the NumPy calculation. The guided demo's full
+sample scope is stated separately from sidebar-filtered explorer views.
 
-![Culture labels for the filtered Asian Art sample](figures/app_cultures.png)
+![Prediction and computed comparison](figures/app_demo.png)
 
-## Object metadata
+The **Live API** step makes one bounded, uncached object-detail request on click.
+A browser test received a fresh actual Met response. A failed refresh clears old
+success and labels saved evidence explicitly; this is also covered by tests.
 
-Up to five matching records are shown, sorted by objectID. These are examples,
-not a representative random subsample. The current interface displays metadata
-rather than an artwork-image gallery.
+## Culture explorer
 
-![Metadata for matching objects](figures/app_objects.png)
+Q3 shows label coverage, concentration, and indices for the current explorer
+filters. The culture calculator in the guided demo uses the full chosen department
+and supports uncertain-attribution exclusion. All-missing culture groups are
+undefined, not zero-diversity groups.
 
-## Browser verification
+The Asian Art explorer screenshot uses 991 date-eligible records; the whole-
+department report and guided calculator use 1,000 records and can therefore differ.
 
-A headless Chromium browser opened the actual app, verified the default 2,990
-matching records, selected Asian Art, verified 991 records, and captured these
-views. No app exceptions appeared in those flows. The public deployment remains
-a separate check.
+![Culture explorer](figures/app_cultures.png)
+
+## Search and select an object
+
+Search titles or artists, then choose one of the first 100 matching IDs to inspect
+its metadata. The displayed examples are not a representative random subsample.
+Object search applies only to this browser, not the statistical analyses.
+
+![Searchable object browser](figures/app_objects.png)
+
+## Validation
+
+Twenty-seven automated tests passed. Real-browser checks covered tab navigation,
+prediction and reveal, a successful fresh API request, presets, and an object
+search with a matching real title. No unhandled app exceptions appeared in the
+completed checks. Hosted API reachability and online app startup remain dependent
+on the actual deployment environment.

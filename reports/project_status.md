@@ -11,7 +11,7 @@
 | Research questions | Q1 date distribution; Q2 medium composition; revised Q3 culture labels | Treat conclusions as descriptive sample findings |
 | Visualization | One substantive figure per question plus interactive charts | Choose a readable demo sequence |
 | Application | Streamlit department/year filters, metadata, Q1/Q2/Q3 views | Hosted dependency failure still requires rebuild/online confirmation |
-| Testing | 22 automated tests plus real-data and clean-snapshot smoke checks | These do not prove hosted service availability |
+| Testing | 27 automated tests plus real-data and clean-snapshot smoke checks | These do not prove hosted service availability |
 | Demo | Five-minute guide and live/cached demonstration scripts | Rehearse and perform the actual demo |
 | Final report | Methods, numeric results, figures, and limitations are available | Assemble, review, and submit the final course report |
 | PyTorch | Not used; optional under the guidelines | No extra model needed |

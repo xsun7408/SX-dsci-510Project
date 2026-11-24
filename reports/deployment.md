@@ -76,3 +76,16 @@ redeployment flow to choose 3.12. If installation still fails, copy the first
 `ERROR` / `No matching distribution` block and the Python version from the log.
 The owner must confirm the actual hosted URL starts; a local smoke test or a
 push to GitHub does not establish online availability.
+
+## Confirm which app you are opening
+
+Different App URL slugs identify different deployments even when both use the
+same repository and branch. After creating a new deployment, open that exact
+app from **My apps**. An old app's logs do not prove which runtime a newer app
+uses. Before Deploy, save the Python 3.12 selection in Advanced settings. Match
+the new app's URL and build timestamp when examining a failure.
+
+The app's analysis uses the saved snapshot; only the explicit live-demo request
+button contacts The Met. If the hosted environment cannot reach that API, the
+button reports the failure while saved analysis remains usable. This does not
+establish that a live request succeeded on the hosted service.
