@@ -19,8 +19,8 @@ Use the new deployment URL rather than an older app's logs when checking runtime
 
 Read the [results and limitations](reports/full_sample_results.md) and
 [analysis methods](reports/analysis_method.md). This checkpoint is not the final
-course report. See the [fifteen-minute presentation guide](reports/presentation_15min.md) for a
-rehearsal sequence.
+course report. Bilingual presentation materials are distributed separately from
+this repository.
 
 ![Q1: sampled begin-year distributions](reports/figures/q1_date_distribution.png)
 
@@ -99,7 +99,7 @@ The app prefers `data/processed_3000/objects_clean.csv` when present, otherwise
 uses the committed `app_data/objects.csv`; `MET_DATA_PATH` can select a custom file.
 It makes no API calls while filtering. A fresh clone can open the explorer using
 the compact snapshot without reacquiring raw records. To create a clickable hosted
-website, follow the [Community Cloud deployment steps](reports/deployment.md). See the [fifteen-minute guide](reports/presentation_15min.md) to rehearse the demo.
+website, follow the [Community Cloud deployment steps](reports/deployment.md). Use the separately supplied bilingual presentation materials to rehearse the demo.
 
 ## Code and outputs
 
@@ -197,9 +197,8 @@ selection. The guided demo explicitly uses the full saved sample: it can make
 one bounded fresh object request, reveal a computed department comparison after
 an audience prediction, and recalculate culture indices when uncertainty is
 excluded. Live failures clear previous success and never masquerade as cached
-success. See the [fifteen-minute walkthrough](reports/presentation_15min.md).
+success.
 
-The confirmed presentation slot is **15 minutes including questions**: follow the
-[13-minute run of show plus 2-minute Q&A](reports/presentation_15min.md), with an
-[English reference speaker script](reports/presentation_script.md). The earlier
-five-minute version is retained as a fallback, not the main timing plan.
+The confirmed presentation slot is **15 minutes including questions**: 13 minutes
+of explanation and interaction, followed by 2 minutes for questions. The bilingual
+run of show and speaker script are distributed separately from this repository.

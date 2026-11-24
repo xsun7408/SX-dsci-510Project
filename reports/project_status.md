@@ -12,7 +12,7 @@
 | Visualization | One substantive figure per question plus interactive charts | Choose a readable demo sequence |
 | Application | Streamlit department/year filters, metadata, Q1/Q2/Q3 views | Owner reports a new hosted deployment opens; verify after updates on the presentation device |
 | Testing | 27 automated tests plus real-data and clean-snapshot smoke checks | These do not prove hosted service availability |
-| Demo | 15-minute guide (13 minutes + 2-minute Q&A), speaker script, and interactive demo controls | Rehearse and perform the actual demo |
+| Demo | Interactive demo controls; bilingual 15-minute guide and speaker script supplied separately | Rehearse and perform the actual demo |
 | Final report | Methods, numeric results, figures, and limitations are available | Assemble, review, and submit the final course report |
 | PyTorch | Not used; optional under the guidelines | No extra model needed |
 
