@@ -80,6 +80,8 @@ new requests; use the demo when demonstrating live API acquisition.
 
 ## Simple application
 
+See [real interface screenshots](reports/interface_preview.md) for the current layout.
+
 Start the explorer from the checkout root (the committed compact snapshot is sufficient):
 
 ```bash
