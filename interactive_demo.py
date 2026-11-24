@@ -20,7 +20,7 @@ def fetch_live_example(object_id):
 
 
 def show_live_demo(df):
-    st.subheader('A five-minute, audience-driven demo')
+    st.subheader('Guided audience-driven demo')
     st.caption('This guided demo uses the full saved sample, independently of the explorer sidebar filters. Only the live-request button contacts the API.')
     step = st.radio('Demo step', ['Live API', 'Predict and compare', 'Culture calculator'], horizontal=True, key='demo_step')
     if step == 'Live API':
